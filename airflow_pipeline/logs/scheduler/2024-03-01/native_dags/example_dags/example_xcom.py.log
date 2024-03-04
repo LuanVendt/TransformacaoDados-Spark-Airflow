@@ -1,0 +1,949 @@
+[2024-03-01 14:46:17,253] {processor.py:153} INFO - Started process (PID=83021) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:46:17,253] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:46:17,254] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,254] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:46:17,267] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:46:17,335] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,335] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom
+[2024-03-01 14:46:17,347] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,347] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom
+[2024-03-01 14:46:17,360] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,360] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom
+[2024-03-01 14:46:17,360] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,360] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:46:17,366] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,365] {dag.py:2398} INFO - Creating ORM DAG for example_xcom
+[2024-03-01 14:46:17,373] {logging_mixin.py:115} INFO - [2024-03-01 14:46:17,373] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:46:17,390] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.139 seconds
+[2024-03-01 14:46:50,825] {processor.py:153} INFO - Started process (PID=83234) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:46:50,827] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:46:50,827] {logging_mixin.py:115} INFO - [2024-03-01 14:46:50,827] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:46:50,841] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:46:50,869] {logging_mixin.py:115} INFO - [2024-03-01 14:46:50,869] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:46:50,879] {logging_mixin.py:115} INFO - [2024-03-01 14:46:50,879] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:46:50,896] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.073 seconds
+[2024-03-01 14:47:24,268] {processor.py:153} INFO - Started process (PID=83364) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:47:24,272] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:47:24,273] {logging_mixin.py:115} INFO - [2024-03-01 14:47:24,273] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:47:24,284] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:47:24,312] {logging_mixin.py:115} INFO - [2024-03-01 14:47:24,312] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:47:24,322] {logging_mixin.py:115} INFO - [2024-03-01 14:47:24,322] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:47:24,336] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2024-03-01 14:47:55,292] {processor.py:153} INFO - Started process (PID=83488) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:47:55,297] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:47:55,297] {logging_mixin.py:115} INFO - [2024-03-01 14:47:55,297] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:47:55,308] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:47:55,318] {logging_mixin.py:115} INFO - [2024-03-01 14:47:55,318] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:47:55,333] {logging_mixin.py:115} INFO - [2024-03-01 14:47:55,333] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:47:55,348] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 14:48:30,679] {processor.py:153} INFO - Started process (PID=83624) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:48:30,684] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:48:30,684] {logging_mixin.py:115} INFO - [2024-03-01 14:48:30,684] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:48:30,697] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:48:30,725] {logging_mixin.py:115} INFO - [2024-03-01 14:48:30,724] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:48:30,734] {logging_mixin.py:115} INFO - [2024-03-01 14:48:30,734] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:48:30,749] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.071 seconds
+[2024-03-01 14:49:03,183] {processor.py:153} INFO - Started process (PID=83754) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:49:03,184] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:49:03,184] {logging_mixin.py:115} INFO - [2024-03-01 14:49:03,184] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:49:03,195] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:49:03,223] {logging_mixin.py:115} INFO - [2024-03-01 14:49:03,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:49:03,233] {logging_mixin.py:115} INFO - [2024-03-01 14:49:03,233] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:49:03,248] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.067 seconds
+[2024-03-01 14:49:36,997] {processor.py:153} INFO - Started process (PID=83884) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:49:36,998] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:49:36,999] {logging_mixin.py:115} INFO - [2024-03-01 14:49:36,999] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:49:37,010] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:49:37,038] {logging_mixin.py:115} INFO - [2024-03-01 14:49:37,038] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:49:37,049] {logging_mixin.py:115} INFO - [2024-03-01 14:49:37,048] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:49:37,064] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.069 seconds
+[2024-03-01 14:50:08,833] {processor.py:153} INFO - Started process (PID=84008) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:50:08,837] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:50:08,837] {logging_mixin.py:115} INFO - [2024-03-01 14:50:08,837] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:50:08,850] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:50:08,879] {logging_mixin.py:115} INFO - [2024-03-01 14:50:08,879] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:50:08,889] {logging_mixin.py:115} INFO - [2024-03-01 14:50:08,889] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:50:08,906] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.076 seconds
+[2024-03-01 14:50:40,836] {processor.py:153} INFO - Started process (PID=84132) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:50:40,840] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:50:40,841] {logging_mixin.py:115} INFO - [2024-03-01 14:50:40,841] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:50:40,852] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:50:40,863] {logging_mixin.py:115} INFO - [2024-03-01 14:50:40,863] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:50:40,876] {logging_mixin.py:115} INFO - [2024-03-01 14:50:40,876] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:50:40,894] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.059 seconds
+[2024-03-01 14:51:13,999] {processor.py:153} INFO - Started process (PID=84315) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:51:14,002] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:51:14,003] {logging_mixin.py:115} INFO - [2024-03-01 14:51:14,003] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:51:14,015] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:51:14,045] {logging_mixin.py:115} INFO - [2024-03-01 14:51:14,044] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:51:14,054] {logging_mixin.py:115} INFO - [2024-03-01 14:51:14,054] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:51:14,070] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.073 seconds
+[2024-03-01 14:51:45,997] {processor.py:153} INFO - Started process (PID=84439) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:51:46,002] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:51:46,002] {logging_mixin.py:115} INFO - [2024-03-01 14:51:46,002] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:51:46,014] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:51:46,023] {logging_mixin.py:115} INFO - [2024-03-01 14:51:46,023] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:51:46,038] {logging_mixin.py:115} INFO - [2024-03-01 14:51:46,038] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:51:46,055] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 14:52:16,857] {processor.py:153} INFO - Started process (PID=84563) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:52:16,858] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:52:16,859] {logging_mixin.py:115} INFO - [2024-03-01 14:52:16,858] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:52:16,871] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:52:16,903] {logging_mixin.py:115} INFO - [2024-03-01 14:52:16,903] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:52:16,914] {logging_mixin.py:115} INFO - [2024-03-01 14:52:16,914] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:52:16,930] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2024-03-01 14:52:52,887] {processor.py:153} INFO - Started process (PID=84700) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:52:52,891] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:52:52,892] {logging_mixin.py:115} INFO - [2024-03-01 14:52:52,892] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:52:52,906] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:52:52,918] {logging_mixin.py:115} INFO - [2024-03-01 14:52:52,918] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:52:52,932] {logging_mixin.py:115} INFO - [2024-03-01 14:52:52,931] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:52:52,948] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2024-03-01 14:53:24,242] {processor.py:153} INFO - Started process (PID=84824) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:53:24,246] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:53:24,247] {logging_mixin.py:115} INFO - [2024-03-01 14:53:24,247] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:53:24,258] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:53:24,268] {logging_mixin.py:115} INFO - [2024-03-01 14:53:24,268] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:53:24,281] {logging_mixin.py:115} INFO - [2024-03-01 14:53:24,281] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:53:24,297] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 14:53:58,065] {processor.py:153} INFO - Started process (PID=84960) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:53:58,070] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:53:58,070] {logging_mixin.py:115} INFO - [2024-03-01 14:53:58,070] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:53:58,081] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:53:58,091] {logging_mixin.py:115} INFO - [2024-03-01 14:53:58,091] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:53:58,104] {logging_mixin.py:115} INFO - [2024-03-01 14:53:58,103] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:53:58,118] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 14:54:30,591] {processor.py:153} INFO - Started process (PID=85084) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:54:30,595] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:54:30,596] {logging_mixin.py:115} INFO - [2024-03-01 14:54:30,596] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:54:30,607] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:54:30,636] {logging_mixin.py:115} INFO - [2024-03-01 14:54:30,636] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:54:30,646] {logging_mixin.py:115} INFO - [2024-03-01 14:54:30,646] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:54:30,660] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.071 seconds
+[2024-03-01 14:55:04,284] {processor.py:153} INFO - Started process (PID=85214) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:55:04,289] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:55:04,290] {logging_mixin.py:115} INFO - [2024-03-01 14:55:04,289] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:55:04,301] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:55:04,311] {logging_mixin.py:115} INFO - [2024-03-01 14:55:04,311] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:55:04,324] {logging_mixin.py:115} INFO - [2024-03-01 14:55:04,324] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:55:04,338] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 14:55:36,208] {processor.py:153} INFO - Started process (PID=85344) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:55:36,212] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:55:36,213] {logging_mixin.py:115} INFO - [2024-03-01 14:55:36,213] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:55:36,224] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:55:36,234] {logging_mixin.py:115} INFO - [2024-03-01 14:55:36,234] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:55:36,247] {logging_mixin.py:115} INFO - [2024-03-01 14:55:36,247] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:55:36,262] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 14:56:08,802] {processor.py:153} INFO - Started process (PID=85522) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:56:08,804] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:56:08,804] {logging_mixin.py:115} INFO - [2024-03-01 14:56:08,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:56:08,816] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:56:08,844] {logging_mixin.py:115} INFO - [2024-03-01 14:56:08,843] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:56:08,853] {logging_mixin.py:115} INFO - [2024-03-01 14:56:08,853] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:56:08,870] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2024-03-01 14:56:44,839] {processor.py:153} INFO - Started process (PID=85666) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:56:44,859] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:56:44,860] {logging_mixin.py:115} INFO - [2024-03-01 14:56:44,860] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:56:44,872] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:56:44,882] {logging_mixin.py:115} INFO - [2024-03-01 14:56:44,882] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:56:44,895] {logging_mixin.py:115} INFO - [2024-03-01 14:56:44,895] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:56:44,910] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2024-03-01 14:57:18,076] {processor.py:153} INFO - Started process (PID=85796) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:57:18,080] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:57:18,081] {logging_mixin.py:115} INFO - [2024-03-01 14:57:18,081] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:57:18,094] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:57:18,103] {logging_mixin.py:115} INFO - [2024-03-01 14:57:18,103] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:57:18,116] {logging_mixin.py:115} INFO - [2024-03-01 14:57:18,116] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:57:18,130] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 14:57:54,086] {processor.py:153} INFO - Started process (PID=85934) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:57:54,090] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:57:54,090] {logging_mixin.py:115} INFO - [2024-03-01 14:57:54,090] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:57:54,102] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:57:54,112] {logging_mixin.py:115} INFO - [2024-03-01 14:57:54,112] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:57:54,125] {logging_mixin.py:115} INFO - [2024-03-01 14:57:54,125] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:57:54,138] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 14:58:27,294] {processor.py:153} INFO - Started process (PID=86063) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:58:27,298] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:58:27,298] {logging_mixin.py:115} INFO - [2024-03-01 14:58:27,298] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:58:27,311] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:58:27,323] {logging_mixin.py:115} INFO - [2024-03-01 14:58:27,322] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:58:27,338] {logging_mixin.py:115} INFO - [2024-03-01 14:58:27,338] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:58:27,352] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 14:58:59,782] {processor.py:153} INFO - Started process (PID=86187) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:58:59,786] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:58:59,787] {logging_mixin.py:115} INFO - [2024-03-01 14:58:59,787] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:58:59,798] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:58:59,808] {logging_mixin.py:115} INFO - [2024-03-01 14:58:59,808] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:58:59,821] {logging_mixin.py:115} INFO - [2024-03-01 14:58:59,821] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:58:59,835] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 14:59:34,565] {processor.py:153} INFO - Started process (PID=86325) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:59:34,567] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 14:59:34,567] {logging_mixin.py:115} INFO - [2024-03-01 14:59:34,567] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:59:34,579] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 14:59:34,590] {logging_mixin.py:115} INFO - [2024-03-01 14:59:34,590] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 14:59:34,603] {logging_mixin.py:115} INFO - [2024-03-01 14:59:34,603] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 14:59:34,619] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:00:06,581] {processor.py:153} INFO - Started process (PID=86449) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:00:06,585] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:00:06,586] {logging_mixin.py:115} INFO - [2024-03-01 15:00:06,586] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:00:06,598] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:00:06,608] {logging_mixin.py:115} INFO - [2024-03-01 15:00:06,608] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:00:06,621] {logging_mixin.py:115} INFO - [2024-03-01 15:00:06,621] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:00:06,635] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:00:42,598] {processor.py:153} INFO - Started process (PID=86592) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:00:42,602] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:00:42,602] {logging_mixin.py:115} INFO - [2024-03-01 15:00:42,602] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:00:42,614] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:00:42,624] {logging_mixin.py:115} INFO - [2024-03-01 15:00:42,624] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:00:42,639] {logging_mixin.py:115} INFO - [2024-03-01 15:00:42,639] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:00:42,655] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.059 seconds
+[2024-03-01 15:01:13,454] {processor.py:153} INFO - Started process (PID=86761) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:01:13,455] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:01:13,455] {logging_mixin.py:115} INFO - [2024-03-01 15:01:13,455] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:01:13,467] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:01:13,496] {logging_mixin.py:115} INFO - [2024-03-01 15:01:13,496] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:01:13,507] {logging_mixin.py:115} INFO - [2024-03-01 15:01:13,507] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:01:13,521] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2024-03-01 15:01:48,105] {processor.py:153} INFO - Started process (PID=86897) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:01:48,109] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:01:48,110] {logging_mixin.py:115} INFO - [2024-03-01 15:01:48,110] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:01:48,122] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:01:48,151] {logging_mixin.py:115} INFO - [2024-03-01 15:01:48,150] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:01:48,161] {logging_mixin.py:115} INFO - [2024-03-01 15:01:48,161] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:01:48,215] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.112 seconds
+[2024-03-01 15:02:22,562] {processor.py:153} INFO - Started process (PID=87028) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:02:22,565] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:02:22,566] {logging_mixin.py:115} INFO - [2024-03-01 15:02:22,566] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:02:22,578] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:02:22,607] {logging_mixin.py:115} INFO - [2024-03-01 15:02:22,607] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:02:22,617] {logging_mixin.py:115} INFO - [2024-03-01 15:02:22,617] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:02:22,738] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.178 seconds
+[2024-03-01 15:02:55,266] {processor.py:153} INFO - Started process (PID=87159) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:02:55,271] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:02:55,272] {logging_mixin.py:115} INFO - [2024-03-01 15:02:55,271] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:02:55,283] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:02:55,312] {logging_mixin.py:115} INFO - [2024-03-01 15:02:55,311] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:02:55,321] {logging_mixin.py:115} INFO - [2024-03-01 15:02:55,321] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:02:55,338] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2024-03-01 15:03:29,533] {processor.py:153} INFO - Started process (PID=87292) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:03:29,537] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:03:29,538] {logging_mixin.py:115} INFO - [2024-03-01 15:03:29,538] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:03:29,549] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:03:29,580] {logging_mixin.py:115} INFO - [2024-03-01 15:03:29,580] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:03:29,591] {logging_mixin.py:115} INFO - [2024-03-01 15:03:29,591] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:03:29,605] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2024-03-01 15:04:03,207] {processor.py:153} INFO - Started process (PID=87426) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:04:03,208] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:04:03,209] {logging_mixin.py:115} INFO - [2024-03-01 15:04:03,209] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:04:03,220] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:04:03,250] {logging_mixin.py:115} INFO - [2024-03-01 15:04:03,250] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:04:03,260] {logging_mixin.py:115} INFO - [2024-03-01 15:04:03,260] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:04:03,276] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.071 seconds
+[2024-03-01 15:04:36,169] {processor.py:153} INFO - Started process (PID=87550) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:04:36,173] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:04:36,173] {logging_mixin.py:115} INFO - [2024-03-01 15:04:36,173] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:04:36,185] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:04:36,196] {logging_mixin.py:115} INFO - [2024-03-01 15:04:36,196] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:04:36,209] {logging_mixin.py:115} INFO - [2024-03-01 15:04:36,209] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:04:36,224] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:05:08,775] {processor.py:153} INFO - Started process (PID=87679) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:05:08,779] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:05:08,780] {logging_mixin.py:115} INFO - [2024-03-01 15:05:08,780] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:05:08,792] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:05:08,820] {logging_mixin.py:115} INFO - [2024-03-01 15:05:08,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:05:08,831] {logging_mixin.py:115} INFO - [2024-03-01 15:05:08,831] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:05:08,846] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.073 seconds
+[2024-03-01 15:05:43,198] {processor.py:153} INFO - Started process (PID=87818) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:05:43,202] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:05:43,203] {logging_mixin.py:115} INFO - [2024-03-01 15:05:43,203] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:05:43,214] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:05:43,225] {logging_mixin.py:115} INFO - [2024-03-01 15:05:43,224] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:05:43,237] {logging_mixin.py:115} INFO - [2024-03-01 15:05:43,237] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:05:43,253] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:06:15,747] {processor.py:153} INFO - Started process (PID=87995) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:06:15,754] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:06:15,754] {logging_mixin.py:115} INFO - [2024-03-01 15:06:15,754] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:06:15,766] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:06:15,795] {logging_mixin.py:115} INFO - [2024-03-01 15:06:15,795] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:06:15,805] {logging_mixin.py:115} INFO - [2024-03-01 15:06:15,805] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:06:15,862] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.116 seconds
+[2024-03-01 15:06:47,572] {processor.py:153} INFO - Started process (PID=88118) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:06:47,573] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:06:47,573] {logging_mixin.py:115} INFO - [2024-03-01 15:06:47,573] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:06:47,585] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:06:47,612] {logging_mixin.py:115} INFO - [2024-03-01 15:06:47,612] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:06:47,622] {logging_mixin.py:115} INFO - [2024-03-01 15:06:47,622] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:06:47,637] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.067 seconds
+[2024-03-01 15:07:19,099] {processor.py:153} INFO - Started process (PID=88244) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:07:19,103] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:07:19,104] {logging_mixin.py:115} INFO - [2024-03-01 15:07:19,103] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:07:19,117] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:07:19,128] {logging_mixin.py:115} INFO - [2024-03-01 15:07:19,128] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:07:19,143] {logging_mixin.py:115} INFO - [2024-03-01 15:07:19,143] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:07:19,157] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 15:07:52,123] {processor.py:153} INFO - Started process (PID=88371) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:07:52,127] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:07:52,127] {logging_mixin.py:115} INFO - [2024-03-01 15:07:52,127] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:07:52,139] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:07:52,149] {logging_mixin.py:115} INFO - [2024-03-01 15:07:52,149] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:07:52,162] {logging_mixin.py:115} INFO - [2024-03-01 15:07:52,162] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:07:52,179] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:08:25,873] {processor.py:153} INFO - Started process (PID=88508) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:08:25,877] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:08:25,878] {logging_mixin.py:115} INFO - [2024-03-01 15:08:25,878] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:08:25,890] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:08:25,901] {logging_mixin.py:115} INFO - [2024-03-01 15:08:25,900] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:08:25,913] {logging_mixin.py:115} INFO - [2024-03-01 15:08:25,913] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:08:25,927] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:09:00,324] {processor.py:153} INFO - Started process (PID=88639) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:09:00,325] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:09:00,326] {logging_mixin.py:115} INFO - [2024-03-01 15:09:00,326] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:09:00,337] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:09:00,348] {logging_mixin.py:115} INFO - [2024-03-01 15:09:00,348] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:09:00,360] {logging_mixin.py:115} INFO - [2024-03-01 15:09:00,360] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:09:00,375] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2024-03-01 15:09:31,508] {processor.py:153} INFO - Started process (PID=88763) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:09:31,510] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:09:31,510] {logging_mixin.py:115} INFO - [2024-03-01 15:09:31,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:09:31,523] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:09:31,533] {logging_mixin.py:115} INFO - [2024-03-01 15:09:31,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:09:31,547] {logging_mixin.py:115} INFO - [2024-03-01 15:09:31,547] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:09:31,562] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:10:03,916] {processor.py:153} INFO - Started process (PID=88886) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:10:03,917] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:10:03,917] {logging_mixin.py:115} INFO - [2024-03-01 15:10:03,917] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:10:03,929] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:10:03,940] {logging_mixin.py:115} INFO - [2024-03-01 15:10:03,940] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:10:03,955] {logging_mixin.py:115} INFO - [2024-03-01 15:10:03,955] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:10:03,971] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:10:38,417] {processor.py:153} INFO - Started process (PID=89023) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:10:38,421] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:10:38,422] {logging_mixin.py:115} INFO - [2024-03-01 15:10:38,421] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:10:38,432] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:10:38,442] {logging_mixin.py:115} INFO - [2024-03-01 15:10:38,442] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:10:38,455] {logging_mixin.py:115} INFO - [2024-03-01 15:10:38,455] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:10:38,470] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:11:10,750] {processor.py:153} INFO - Started process (PID=89203) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:11:10,750] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:11:10,750] {logging_mixin.py:115} INFO - [2024-03-01 15:11:10,750] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:11:10,762] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:11:10,796] {logging_mixin.py:115} INFO - [2024-03-01 15:11:10,796] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:11:10,808] {logging_mixin.py:115} INFO - [2024-03-01 15:11:10,808] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:11:10,825] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.077 seconds
+[2024-03-01 15:11:42,170] {processor.py:153} INFO - Started process (PID=89327) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:11:42,171] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:11:42,172] {logging_mixin.py:115} INFO - [2024-03-01 15:11:42,172] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:11:42,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:11:42,199] {logging_mixin.py:115} INFO - [2024-03-01 15:11:42,199] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:11:42,212] {logging_mixin.py:115} INFO - [2024-03-01 15:11:42,212] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:11:42,227] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:12:15,901] {processor.py:153} INFO - Started process (PID=89514) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:12:15,902] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:12:15,903] {logging_mixin.py:115} INFO - [2024-03-01 15:12:15,903] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:12:15,915] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:12:15,927] {logging_mixin.py:115} INFO - [2024-03-01 15:12:15,926] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:12:15,938] {logging_mixin.py:115} INFO - [2024-03-01 15:12:15,938] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:12:15,953] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:12:48,996] {processor.py:153} INFO - Started process (PID=89796) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:12:48,998] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:12:48,999] {logging_mixin.py:115} INFO - [2024-03-01 15:12:48,999] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:12:49,011] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:12:49,023] {logging_mixin.py:115} INFO - [2024-03-01 15:12:49,022] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:12:49,034] {logging_mixin.py:115} INFO - [2024-03-01 15:12:49,034] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:12:49,050] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:13:20,701] {processor.py:153} INFO - Started process (PID=89926) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:13:20,702] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:13:20,703] {logging_mixin.py:115} INFO - [2024-03-01 15:13:20,703] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:13:20,714] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:13:20,727] {logging_mixin.py:115} INFO - [2024-03-01 15:13:20,727] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:13:20,741] {logging_mixin.py:115} INFO - [2024-03-01 15:13:20,741] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:13:20,756] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:13:55,921] {processor.py:153} INFO - Started process (PID=90058) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:13:55,925] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:13:55,925] {logging_mixin.py:115} INFO - [2024-03-01 15:13:55,925] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:13:55,937] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:13:55,949] {logging_mixin.py:115} INFO - [2024-03-01 15:13:55,949] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:13:55,961] {logging_mixin.py:115} INFO - [2024-03-01 15:13:55,960] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:13:55,976] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:14:31,867] {processor.py:153} INFO - Started process (PID=90199) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:14:31,871] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:14:31,872] {logging_mixin.py:115} INFO - [2024-03-01 15:14:31,872] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:14:31,885] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:14:31,897] {logging_mixin.py:115} INFO - [2024-03-01 15:14:31,897] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:14:31,911] {logging_mixin.py:115} INFO - [2024-03-01 15:14:31,911] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:14:31,926] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2024-03-01 15:15:03,599] {processor.py:153} INFO - Started process (PID=90430) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:15:03,599] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:15:03,600] {logging_mixin.py:115} INFO - [2024-03-01 15:15:03,600] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:15:03,613] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:15:03,626] {logging_mixin.py:115} INFO - [2024-03-01 15:15:03,626] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:15:03,638] {logging_mixin.py:115} INFO - [2024-03-01 15:15:03,638] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:15:03,652] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:15:39,193] {processor.py:153} INFO - Started process (PID=90568) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:15:39,197] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:15:39,197] {logging_mixin.py:115} INFO - [2024-03-01 15:15:39,197] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:15:39,209] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:15:39,221] {logging_mixin.py:115} INFO - [2024-03-01 15:15:39,221] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:15:39,231] {logging_mixin.py:115} INFO - [2024-03-01 15:15:39,231] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:15:39,245] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:16:11,715] {processor.py:153} INFO - Started process (PID=90744) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:16:11,719] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:16:11,719] {logging_mixin.py:115} INFO - [2024-03-01 15:16:11,719] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:16:11,731] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:16:11,759] {logging_mixin.py:115} INFO - [2024-03-01 15:16:11,759] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:16:11,770] {logging_mixin.py:115} INFO - [2024-03-01 15:16:11,770] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:16:11,785] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2024-03-01 15:16:44,843] {processor.py:153} INFO - Started process (PID=90878) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:16:44,843] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:16:44,844] {logging_mixin.py:115} INFO - [2024-03-01 15:16:44,844] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:16:44,857] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:16:44,888] {logging_mixin.py:115} INFO - [2024-03-01 15:16:44,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:16:44,898] {logging_mixin.py:115} INFO - [2024-03-01 15:16:44,898] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:16:44,915] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2024-03-01 15:17:17,416] {processor.py:153} INFO - Started process (PID=91011) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:17:17,420] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:17:17,421] {logging_mixin.py:115} INFO - [2024-03-01 15:17:17,421] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:17:17,437] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:17:17,451] {logging_mixin.py:115} INFO - [2024-03-01 15:17:17,451] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:17:17,463] {logging_mixin.py:115} INFO - [2024-03-01 15:17:17,463] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:17:17,477] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2024-03-01 15:17:50,067] {processor.py:153} INFO - Started process (PID=91135) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:17:50,067] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:17:50,068] {logging_mixin.py:115} INFO - [2024-03-01 15:17:50,068] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:17:50,079] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:17:50,090] {logging_mixin.py:115} INFO - [2024-03-01 15:17:50,090] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:17:50,102] {logging_mixin.py:115} INFO - [2024-03-01 15:17:50,102] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:17:50,117] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2024-03-01 15:18:22,084] {processor.py:153} INFO - Started process (PID=91259) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:18:22,088] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:18:22,088] {logging_mixin.py:115} INFO - [2024-03-01 15:18:22,088] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:18:22,100] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:18:22,114] {logging_mixin.py:115} INFO - [2024-03-01 15:18:22,114] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:18:22,126] {logging_mixin.py:115} INFO - [2024-03-01 15:18:22,126] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:18:22,140] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:18:53,490] {processor.py:153} INFO - Started process (PID=91382) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:18:53,491] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:18:53,491] {logging_mixin.py:115} INFO - [2024-03-01 15:18:53,491] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:18:53,506] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:18:53,521] {logging_mixin.py:115} INFO - [2024-03-01 15:18:53,521] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:18:53,533] {logging_mixin.py:115} INFO - [2024-03-01 15:18:53,533] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:18:53,548] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 15:19:27,912] {processor.py:153} INFO - Started process (PID=91519) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:19:27,917] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:19:27,917] {logging_mixin.py:115} INFO - [2024-03-01 15:19:27,917] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:19:27,937] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:19:27,963] {logging_mixin.py:115} INFO - [2024-03-01 15:19:27,962] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:19:27,976] {logging_mixin.py:115} INFO - [2024-03-01 15:19:27,976] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:19:27,992] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.083 seconds
+[2024-03-01 15:20:00,982] {processor.py:153} INFO - Started process (PID=91649) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:20:00,982] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:20:00,982] {logging_mixin.py:115} INFO - [2024-03-01 15:20:00,982] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:20:00,995] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:20:01,008] {logging_mixin.py:115} INFO - [2024-03-01 15:20:01,007] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:20:01,019] {logging_mixin.py:115} INFO - [2024-03-01 15:20:01,019] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:20:01,033] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:20:32,998] {processor.py:153} INFO - Started process (PID=91774) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:20:32,999] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:20:32,999] {logging_mixin.py:115} INFO - [2024-03-01 15:20:32,999] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:20:33,011] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:20:33,023] {logging_mixin.py:115} INFO - [2024-03-01 15:20:33,023] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:20:33,036] {logging_mixin.py:115} INFO - [2024-03-01 15:20:33,036] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:20:33,050] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:21:05,479] {processor.py:153} INFO - Started process (PID=91952) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:21:05,483] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:21:05,484] {logging_mixin.py:115} INFO - [2024-03-01 15:21:05,484] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:21:05,495] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:21:05,523] {logging_mixin.py:115} INFO - [2024-03-01 15:21:05,523] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:21:05,534] {logging_mixin.py:115} INFO - [2024-03-01 15:21:05,534] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:21:05,550] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2024-03-01 15:21:37,492] {processor.py:153} INFO - Started process (PID=92082) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:21:37,493] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:21:37,494] {logging_mixin.py:115} INFO - [2024-03-01 15:21:37,494] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:21:37,509] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:21:37,545] {logging_mixin.py:115} INFO - [2024-03-01 15:21:37,545] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:21:37,556] {logging_mixin.py:115} INFO - [2024-03-01 15:21:37,556] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:21:37,573] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.084 seconds
+[2024-03-01 15:22:11,449] {processor.py:153} INFO - Started process (PID=92214) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:22:11,453] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:22:11,454] {logging_mixin.py:115} INFO - [2024-03-01 15:22:11,454] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:22:11,466] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:22:11,478] {logging_mixin.py:115} INFO - [2024-03-01 15:22:11,478] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:22:11,489] {logging_mixin.py:115} INFO - [2024-03-01 15:22:11,489] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:22:11,504] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:22:44,279] {processor.py:153} INFO - Started process (PID=92338) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:22:44,283] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:22:44,284] {logging_mixin.py:115} INFO - [2024-03-01 15:22:44,284] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:22:44,297] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:22:44,310] {logging_mixin.py:115} INFO - [2024-03-01 15:22:44,310] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:22:44,322] {logging_mixin.py:115} INFO - [2024-03-01 15:22:44,322] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:22:44,339] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2024-03-01 15:23:19,950] {processor.py:153} INFO - Started process (PID=92479) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:23:19,954] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:23:19,955] {logging_mixin.py:115} INFO - [2024-03-01 15:23:19,955] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:23:19,968] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:23:19,981] {logging_mixin.py:115} INFO - [2024-03-01 15:23:19,981] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:23:19,992] {logging_mixin.py:115} INFO - [2024-03-01 15:23:19,992] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:23:20,007] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:23:54,866] {processor.py:153} INFO - Started process (PID=92613) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:23:54,870] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:23:54,870] {logging_mixin.py:115} INFO - [2024-03-01 15:23:54,870] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:23:54,882] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:23:54,894] {logging_mixin.py:115} INFO - [2024-03-01 15:23:54,894] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:23:54,907] {logging_mixin.py:115} INFO - [2024-03-01 15:23:54,907] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:23:54,922] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:24:26,500] {processor.py:153} INFO - Started process (PID=92737) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:24:26,504] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:24:26,504] {logging_mixin.py:115} INFO - [2024-03-01 15:24:26,504] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:24:26,516] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:24:26,528] {logging_mixin.py:115} INFO - [2024-03-01 15:24:26,528] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:24:26,539] {logging_mixin.py:115} INFO - [2024-03-01 15:24:26,539] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:24:26,552] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:25:00,170] {processor.py:153} INFO - Started process (PID=92868) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:25:00,171] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:25:00,172] {logging_mixin.py:115} INFO - [2024-03-01 15:25:00,172] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:25:00,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:25:00,199] {logging_mixin.py:115} INFO - [2024-03-01 15:25:00,199] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:25:00,212] {logging_mixin.py:115} INFO - [2024-03-01 15:25:00,212] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:25:00,226] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.059 seconds
+[2024-03-01 15:25:32,730] {processor.py:153} INFO - Started process (PID=92997) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:25:32,731] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:25:32,731] {logging_mixin.py:115} INFO - [2024-03-01 15:25:32,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:25:32,743] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:25:32,755] {logging_mixin.py:115} INFO - [2024-03-01 15:25:32,755] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:25:32,766] {logging_mixin.py:115} INFO - [2024-03-01 15:25:32,766] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:25:32,782] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:26:03,695] {processor.py:153} INFO - Started process (PID=93171) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:26:03,695] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:26:03,696] {logging_mixin.py:115} INFO - [2024-03-01 15:26:03,696] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:26:03,709] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:26:03,734] {logging_mixin.py:115} INFO - [2024-03-01 15:26:03,734] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:26:03,744] {logging_mixin.py:115} INFO - [2024-03-01 15:26:03,744] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:26:03,758] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.065 seconds
+[2024-03-01 15:26:38,023] {processor.py:153} INFO - Started process (PID=93301) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:26:38,025] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:26:38,026] {logging_mixin.py:115} INFO - [2024-03-01 15:26:38,026] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:26:38,040] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:26:38,050] {logging_mixin.py:115} INFO - [2024-03-01 15:26:38,049] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:26:38,061] {logging_mixin.py:115} INFO - [2024-03-01 15:26:38,061] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:26:38,075] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:27:10,127] {processor.py:153} INFO - Started process (PID=93431) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:27:10,128] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:27:10,128] {logging_mixin.py:115} INFO - [2024-03-01 15:27:10,128] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:27:10,141] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:27:10,151] {logging_mixin.py:115} INFO - [2024-03-01 15:27:10,151] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:27:10,162] {logging_mixin.py:115} INFO - [2024-03-01 15:27:10,162] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:27:10,176] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2024-03-01 15:27:43,256] {processor.py:153} INFO - Started process (PID=93561) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:27:43,260] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:27:43,260] {logging_mixin.py:115} INFO - [2024-03-01 15:27:43,260] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:27:43,274] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:27:43,283] {logging_mixin.py:115} INFO - [2024-03-01 15:27:43,283] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:27:43,294] {logging_mixin.py:115} INFO - [2024-03-01 15:27:43,294] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:27:43,311] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:28:15,808] {processor.py:153} INFO - Started process (PID=93685) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:28:15,812] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:28:15,812] {logging_mixin.py:115} INFO - [2024-03-01 15:28:15,812] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:28:15,826] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:28:15,836] {logging_mixin.py:115} INFO - [2024-03-01 15:28:15,836] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:28:15,846] {logging_mixin.py:115} INFO - [2024-03-01 15:28:15,846] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:28:15,860] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:28:51,407] {processor.py:153} INFO - Started process (PID=93821) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:28:51,409] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:28:51,409] {logging_mixin.py:115} INFO - [2024-03-01 15:28:51,409] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:28:51,424] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:28:51,434] {logging_mixin.py:115} INFO - [2024-03-01 15:28:51,433] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:28:51,444] {logging_mixin.py:115} INFO - [2024-03-01 15:28:51,444] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:28:51,458] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2024-03-01 15:29:24,429] {processor.py:153} INFO - Started process (PID=93951) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:29:24,430] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:29:24,430] {logging_mixin.py:115} INFO - [2024-03-01 15:29:24,430] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:29:24,444] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:29:24,454] {logging_mixin.py:115} INFO - [2024-03-01 15:29:24,453] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:29:24,465] {logging_mixin.py:115} INFO - [2024-03-01 15:29:24,465] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:29:24,480] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2024-03-01 15:29:56,275] {processor.py:153} INFO - Started process (PID=94075) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:29:56,279] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:29:56,280] {logging_mixin.py:115} INFO - [2024-03-01 15:29:56,280] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:29:56,293] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:29:56,303] {logging_mixin.py:115} INFO - [2024-03-01 15:29:56,303] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:29:56,314] {logging_mixin.py:115} INFO - [2024-03-01 15:29:56,314] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:29:56,330] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:30:30,786] {processor.py:153} INFO - Started process (PID=94213) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:30:30,790] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:30:30,791] {logging_mixin.py:115} INFO - [2024-03-01 15:30:30,790] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:30:30,804] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:30:30,813] {logging_mixin.py:115} INFO - [2024-03-01 15:30:30,813] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:30:30,824] {logging_mixin.py:115} INFO - [2024-03-01 15:30:30,824] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:30:30,838] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:31:05,407] {processor.py:153} INFO - Started process (PID=94397) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:31:05,412] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:31:05,412] {logging_mixin.py:115} INFO - [2024-03-01 15:31:05,412] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:31:05,426] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:31:05,456] {logging_mixin.py:115} INFO - [2024-03-01 15:31:05,456] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:31:05,465] {logging_mixin.py:115} INFO - [2024-03-01 15:31:05,465] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:31:05,481] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.075 seconds
+[2024-03-01 15:31:37,384] {processor.py:153} INFO - Started process (PID=94522) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:31:37,385] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:31:37,385] {logging_mixin.py:115} INFO - [2024-03-01 15:31:37,385] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:31:37,399] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:31:37,410] {logging_mixin.py:115} INFO - [2024-03-01 15:31:37,410] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:31:37,423] {logging_mixin.py:115} INFO - [2024-03-01 15:31:37,423] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:31:37,438] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:32:12,304] {processor.py:153} INFO - Started process (PID=94658) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:32:12,308] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:32:12,308] {logging_mixin.py:115} INFO - [2024-03-01 15:32:12,308] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:32:12,322] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:32:12,333] {logging_mixin.py:115} INFO - [2024-03-01 15:32:12,333] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:32:12,346] {logging_mixin.py:115} INFO - [2024-03-01 15:32:12,346] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:32:12,363] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.062 seconds
+[2024-03-01 15:32:43,169] {processor.py:153} INFO - Started process (PID=94782) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:32:43,173] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:32:43,174] {logging_mixin.py:115} INFO - [2024-03-01 15:32:43,174] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:32:43,187] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:32:43,199] {logging_mixin.py:115} INFO - [2024-03-01 15:32:43,198] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:32:43,212] {logging_mixin.py:115} INFO - [2024-03-01 15:32:43,212] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:32:43,228] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2024-03-01 15:33:19,769] {processor.py:153} INFO - Started process (PID=94923) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:33:19,771] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:33:19,771] {logging_mixin.py:115} INFO - [2024-03-01 15:33:19,771] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:33:19,785] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:33:19,796] {logging_mixin.py:115} INFO - [2024-03-01 15:33:19,796] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:33:19,809] {logging_mixin.py:115} INFO - [2024-03-01 15:33:19,808] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:33:19,824] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:33:52,780] {processor.py:153} INFO - Started process (PID=95054) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:33:52,785] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:33:52,785] {logging_mixin.py:115} INFO - [2024-03-01 15:33:52,785] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:33:52,798] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:33:52,808] {logging_mixin.py:115} INFO - [2024-03-01 15:33:52,808] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:33:52,819] {logging_mixin.py:115} INFO - [2024-03-01 15:33:52,819] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:33:52,833] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:34:24,796] {processor.py:153} INFO - Started process (PID=95178) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:34:24,801] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:34:24,802] {logging_mixin.py:115} INFO - [2024-03-01 15:34:24,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:34:24,816] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:34:24,829] {logging_mixin.py:115} INFO - [2024-03-01 15:34:24,829] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:34:24,843] {logging_mixin.py:115} INFO - [2024-03-01 15:34:24,843] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:34:24,860] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2024-03-01 15:34:59,763] {processor.py:153} INFO - Started process (PID=95316) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:34:59,767] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:34:59,768] {logging_mixin.py:115} INFO - [2024-03-01 15:34:59,768] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:34:59,785] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:34:59,797] {logging_mixin.py:115} INFO - [2024-03-01 15:34:59,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:34:59,808] {logging_mixin.py:115} INFO - [2024-03-01 15:34:59,808] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:34:59,824] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2024-03-01 15:35:31,714] {processor.py:153} INFO - Started process (PID=95442) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:35:31,715] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:35:31,716] {logging_mixin.py:115} INFO - [2024-03-01 15:35:31,716] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:35:31,731] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:35:31,741] {logging_mixin.py:115} INFO - [2024-03-01 15:35:31,741] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:35:31,753] {logging_mixin.py:115} INFO - [2024-03-01 15:35:31,753] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:35:31,767] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:36:05,073] {processor.py:153} INFO - Started process (PID=95625) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:36:05,076] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:36:05,077] {logging_mixin.py:115} INFO - [2024-03-01 15:36:05,077] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:36:05,093] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:36:05,127] {logging_mixin.py:115} INFO - [2024-03-01 15:36:05,127] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:36:05,140] {logging_mixin.py:115} INFO - [2024-03-01 15:36:05,139] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:36:05,157] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.086 seconds
+[2024-03-01 15:36:39,630] {processor.py:153} INFO - Started process (PID=95761) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:36:39,633] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:36:39,634] {logging_mixin.py:115} INFO - [2024-03-01 15:36:39,634] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:36:39,650] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:36:39,680] {logging_mixin.py:115} INFO - [2024-03-01 15:36:39,680] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:36:39,693] {logging_mixin.py:115} INFO - [2024-03-01 15:36:39,693] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:36:39,715] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2024-03-01 15:37:12,820] {processor.py:153} INFO - Started process (PID=95885) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:37:12,822] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:37:12,822] {logging_mixin.py:115} INFO - [2024-03-01 15:37:12,822] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:37:12,836] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:37:12,849] {logging_mixin.py:115} INFO - [2024-03-01 15:37:12,849] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:37:12,867] {logging_mixin.py:115} INFO - [2024-03-01 15:37:12,867] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:37:12,885] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.066 seconds
+[2024-03-01 15:37:46,622] {processor.py:153} INFO - Started process (PID=96022) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:37:46,626] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:37:46,627] {logging_mixin.py:115} INFO - [2024-03-01 15:37:46,627] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:37:46,641] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:37:46,651] {logging_mixin.py:115} INFO - [2024-03-01 15:37:46,651] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:37:46,664] {logging_mixin.py:115} INFO - [2024-03-01 15:37:46,664] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:37:46,679] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:38:18,620] {processor.py:153} INFO - Started process (PID=96146) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:38:18,624] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:38:18,625] {logging_mixin.py:115} INFO - [2024-03-01 15:38:18,625] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:38:18,640] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:38:18,651] {logging_mixin.py:115} INFO - [2024-03-01 15:38:18,651] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:38:18,665] {logging_mixin.py:115} INFO - [2024-03-01 15:38:18,664] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:38:18,681] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2024-03-01 15:38:51,877] {processor.py:153} INFO - Started process (PID=96277) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:38:51,881] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:38:51,881] {logging_mixin.py:115} INFO - [2024-03-01 15:38:51,881] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:38:51,896] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:38:51,907] {logging_mixin.py:115} INFO - [2024-03-01 15:38:51,906] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:38:51,920] {logging_mixin.py:115} INFO - [2024-03-01 15:38:51,920] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:38:51,935] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 15:39:24,460] {processor.py:153} INFO - Started process (PID=96401) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:39:24,465] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:39:24,466] {logging_mixin.py:115} INFO - [2024-03-01 15:39:24,466] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:39:24,479] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:39:24,489] {logging_mixin.py:115} INFO - [2024-03-01 15:39:24,489] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:39:24,501] {logging_mixin.py:115} INFO - [2024-03-01 15:39:24,501] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:39:24,516] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:39:56,543] {processor.py:153} INFO - Started process (PID=96531) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:39:56,547] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:39:56,547] {logging_mixin.py:115} INFO - [2024-03-01 15:39:56,547] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:39:56,561] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:39:56,571] {logging_mixin.py:115} INFO - [2024-03-01 15:39:56,571] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:39:56,583] {logging_mixin.py:115} INFO - [2024-03-01 15:39:56,583] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:39:56,599] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:40:33,121] {processor.py:153} INFO - Started process (PID=96672) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:40:33,122] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:40:33,123] {logging_mixin.py:115} INFO - [2024-03-01 15:40:33,122] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:40:33,137] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:40:33,146] {logging_mixin.py:115} INFO - [2024-03-01 15:40:33,146] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:40:33,159] {logging_mixin.py:115} INFO - [2024-03-01 15:40:33,159] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:40:33,173] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:41:05,109] {processor.py:153} INFO - Started process (PID=96849) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:41:05,112] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:41:05,113] {logging_mixin.py:115} INFO - [2024-03-01 15:41:05,113] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:41:05,128] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:41:05,155] {logging_mixin.py:115} INFO - [2024-03-01 15:41:05,154] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:41:05,166] {logging_mixin.py:115} INFO - [2024-03-01 15:41:05,166] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:41:05,184] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.077 seconds
+[2024-03-01 15:41:41,109] {processor.py:153} INFO - Started process (PID=96991) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:41:41,113] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:41:41,113] {logging_mixin.py:115} INFO - [2024-03-01 15:41:41,113] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:41:41,129] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:41:41,143] {logging_mixin.py:115} INFO - [2024-03-01 15:41:41,143] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:41:41,157] {logging_mixin.py:115} INFO - [2024-03-01 15:41:41,156] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:41:41,171] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2024-03-01 15:42:14,256] {processor.py:153} INFO - Started process (PID=97119) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:42:14,256] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:42:14,256] {logging_mixin.py:115} INFO - [2024-03-01 15:42:14,256] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:42:14,272] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:42:14,282] {logging_mixin.py:115} INFO - [2024-03-01 15:42:14,282] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:42:14,294] {logging_mixin.py:115} INFO - [2024-03-01 15:42:14,293] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:42:14,308] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:42:46,022] {processor.py:153} INFO - Started process (PID=97246) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:42:46,026] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:42:46,027] {logging_mixin.py:115} INFO - [2024-03-01 15:42:46,027] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:42:46,042] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:42:46,053] {logging_mixin.py:115} INFO - [2024-03-01 15:42:46,053] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:42:46,066] {logging_mixin.py:115} INFO - [2024-03-01 15:42:46,066] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:42:46,084] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2024-03-01 15:43:21,516] {processor.py:153} INFO - Started process (PID=97380) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:43:21,520] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:43:21,520] {logging_mixin.py:115} INFO - [2024-03-01 15:43:21,520] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:43:21,534] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:43:21,544] {logging_mixin.py:115} INFO - [2024-03-01 15:43:21,544] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:43:21,556] {logging_mixin.py:115} INFO - [2024-03-01 15:43:21,556] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:43:21,572] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:43:52,921] {processor.py:153} INFO - Started process (PID=97507) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:43:52,921] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:43:52,922] {logging_mixin.py:115} INFO - [2024-03-01 15:43:52,922] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:43:52,936] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:43:52,951] {logging_mixin.py:115} INFO - [2024-03-01 15:43:52,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:43:52,967] {logging_mixin.py:115} INFO - [2024-03-01 15:43:52,966] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:43:52,986] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.067 seconds
+[2024-03-01 15:44:27,444] {processor.py:153} INFO - Started process (PID=97641) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:44:27,448] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:44:27,448] {logging_mixin.py:115} INFO - [2024-03-01 15:44:27,448] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:44:27,463] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:44:27,473] {logging_mixin.py:115} INFO - [2024-03-01 15:44:27,473] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:44:27,485] {logging_mixin.py:115} INFO - [2024-03-01 15:44:27,484] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:44:27,499] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:45:00,094] {processor.py:153} INFO - Started process (PID=97771) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:45:00,095] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:45:00,095] {logging_mixin.py:115} INFO - [2024-03-01 15:45:00,095] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:45:00,109] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:45:00,119] {logging_mixin.py:115} INFO - [2024-03-01 15:45:00,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:45:00,131] {logging_mixin.py:115} INFO - [2024-03-01 15:45:00,131] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:45:00,146] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.054 seconds
+[2024-03-01 15:45:34,819] {processor.py:153} INFO - Started process (PID=97903) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:45:34,823] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:45:34,823] {logging_mixin.py:115} INFO - [2024-03-01 15:45:34,823] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:45:34,837] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:45:34,848] {logging_mixin.py:115} INFO - [2024-03-01 15:45:34,847] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:45:34,859] {logging_mixin.py:115} INFO - [2024-03-01 15:45:34,859] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:45:34,874] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:46:06,808] {processor.py:153} INFO - Started process (PID=98080) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:46:06,808] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:46:06,809] {logging_mixin.py:115} INFO - [2024-03-01 15:46:06,809] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:46:06,820] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:46:06,849] {logging_mixin.py:115} INFO - [2024-03-01 15:46:06,848] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:46:06,860] {logging_mixin.py:115} INFO - [2024-03-01 15:46:06,860] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:46:06,876] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2024-03-01 15:46:40,450] {processor.py:153} INFO - Started process (PID=98211) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:46:40,451] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:46:40,451] {logging_mixin.py:115} INFO - [2024-03-01 15:46:40,451] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:46:40,465] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:46:40,500] {logging_mixin.py:115} INFO - [2024-03-01 15:46:40,500] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:46:40,513] {logging_mixin.py:115} INFO - [2024-03-01 15:46:40,513] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:46:40,530] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.082 seconds
+[2024-03-01 15:47:13,568] {processor.py:153} INFO - Started process (PID=98341) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:47:13,568] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:47:13,568] {logging_mixin.py:115} INFO - [2024-03-01 15:47:13,568] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:47:13,581] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:47:13,592] {logging_mixin.py:115} INFO - [2024-03-01 15:47:13,592] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:47:13,603] {logging_mixin.py:115} INFO - [2024-03-01 15:47:13,603] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:47:13,617] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.051 seconds
+[2024-03-01 15:47:47,195] {processor.py:153} INFO - Started process (PID=98470) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:47:47,200] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:47:47,200] {logging_mixin.py:115} INFO - [2024-03-01 15:47:47,200] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:47:47,215] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:47:47,226] {logging_mixin.py:115} INFO - [2024-03-01 15:47:47,226] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:47:47,241] {logging_mixin.py:115} INFO - [2024-03-01 15:47:47,241] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:47:47,258] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2024-03-01 15:48:18,055] {processor.py:153} INFO - Started process (PID=98594) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:48:18,055] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:48:18,055] {logging_mixin.py:115} INFO - [2024-03-01 15:48:18,055] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:48:18,067] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:48:18,077] {logging_mixin.py:115} INFO - [2024-03-01 15:48:18,077] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:48:18,088] {logging_mixin.py:115} INFO - [2024-03-01 15:48:18,088] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:48:18,102] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.050 seconds
+[2024-03-01 15:48:52,948] {processor.py:153} INFO - Started process (PID=98731) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:48:52,952] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:48:52,953] {logging_mixin.py:115} INFO - [2024-03-01 15:48:52,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:48:52,965] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:48:52,976] {logging_mixin.py:115} INFO - [2024-03-01 15:48:52,976] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:48:52,987] {logging_mixin.py:115} INFO - [2024-03-01 15:48:52,987] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:48:53,003] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:49:24,561] {processor.py:153} INFO - Started process (PID=98855) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:49:24,562] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:49:24,562] {logging_mixin.py:115} INFO - [2024-03-01 15:49:24,562] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:49:24,575] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:49:24,587] {logging_mixin.py:115} INFO - [2024-03-01 15:49:24,587] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:49:24,602] {logging_mixin.py:115} INFO - [2024-03-01 15:49:24,601] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:49:24,616] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:49:59,918] {processor.py:153} INFO - Started process (PID=98992) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:49:59,923] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:49:59,924] {logging_mixin.py:115} INFO - [2024-03-01 15:49:59,924] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:49:59,936] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:49:59,946] {logging_mixin.py:115} INFO - [2024-03-01 15:49:59,946] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:49:59,958] {logging_mixin.py:115} INFO - [2024-03-01 15:49:59,957] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:49:59,978] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2024-03-01 15:50:31,924] {processor.py:153} INFO - Started process (PID=99169) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:50:31,925] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:50:31,926] {logging_mixin.py:115} INFO - [2024-03-01 15:50:31,926] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:50:31,938] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:50:31,950] {logging_mixin.py:115} INFO - [2024-03-01 15:50:31,950] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:50:31,967] {logging_mixin.py:115} INFO - [2024-03-01 15:50:31,966] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:50:31,983] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 15:51:05,004] {processor.py:153} INFO - Started process (PID=99353) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:51:05,009] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:51:05,009] {logging_mixin.py:115} INFO - [2024-03-01 15:51:05,009] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:51:05,021] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:51:05,048] {logging_mixin.py:115} INFO - [2024-03-01 15:51:05,048] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:51:05,060] {logging_mixin.py:115} INFO - [2024-03-01 15:51:05,060] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:51:05,074] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2024-03-01 15:51:40,707] {processor.py:153} INFO - Started process (PID=99491) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:51:40,711] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:51:40,712] {logging_mixin.py:115} INFO - [2024-03-01 15:51:40,712] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:51:40,724] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:51:40,734] {logging_mixin.py:115} INFO - [2024-03-01 15:51:40,734] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:51:40,747] {logging_mixin.py:115} INFO - [2024-03-01 15:51:40,746] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:51:40,762] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:52:14,712] {processor.py:153} INFO - Started process (PID=99729) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:52:14,716] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:52:14,716] {logging_mixin.py:115} INFO - [2024-03-01 15:52:14,716] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:52:14,728] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:52:14,738] {logging_mixin.py:115} INFO - [2024-03-01 15:52:14,738] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:52:14,749] {logging_mixin.py:115} INFO - [2024-03-01 15:52:14,749] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:52:14,765] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
+[2024-03-01 15:52:50,718] {processor.py:153} INFO - Started process (PID=99866) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:52:50,723] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:52:50,723] {logging_mixin.py:115} INFO - [2024-03-01 15:52:50,723] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:52:50,736] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:52:50,747] {logging_mixin.py:115} INFO - [2024-03-01 15:52:50,747] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:52:50,758] {logging_mixin.py:115} INFO - [2024-03-01 15:52:50,757] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:52:50,773] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-03-01 15:53:28,908] {processor.py:153} INFO - Started process (PID=100012) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:53:28,913] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:53:28,913] {logging_mixin.py:115} INFO - [2024-03-01 15:53:28,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:53:28,927] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:53:28,937] {logging_mixin.py:115} INFO - [2024-03-01 15:53:28,937] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:53:28,949] {logging_mixin.py:115} INFO - [2024-03-01 15:53:28,949] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:53:28,964] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:54:05,438] {processor.py:153} INFO - Started process (PID=100156) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:54:05,439] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:54:05,439] {logging_mixin.py:115} INFO - [2024-03-01 15:54:05,439] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:54:05,451] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:54:05,462] {logging_mixin.py:115} INFO - [2024-03-01 15:54:05,462] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:54:05,474] {logging_mixin.py:115} INFO - [2024-03-01 15:54:05,474] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:54:05,488] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2024-03-01 15:54:38,587] {processor.py:153} INFO - Started process (PID=100288) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:54:38,591] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:54:38,592] {logging_mixin.py:115} INFO - [2024-03-01 15:54:38,592] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:54:38,605] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:54:38,617] {logging_mixin.py:115} INFO - [2024-03-01 15:54:38,617] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:54:38,629] {logging_mixin.py:115} INFO - [2024-03-01 15:54:38,629] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:54:38,644] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-03-01 15:55:11,725] {processor.py:153} INFO - Started process (PID=100470) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:55:11,730] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:55:11,731] {logging_mixin.py:115} INFO - [2024-03-01 15:55:11,731] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:55:11,743] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:55:11,755] {logging_mixin.py:115} INFO - [2024-03-01 15:55:11,755] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:55:11,769] {logging_mixin.py:115} INFO - [2024-03-01 15:55:11,769] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:55:11,785] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2024-03-01 15:55:43,957] {processor.py:153} INFO - Started process (PID=100597) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:55:43,962] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:55:43,962] {logging_mixin.py:115} INFO - [2024-03-01 15:55:43,962] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:55:43,975] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:55:43,985] {logging_mixin.py:115} INFO - [2024-03-01 15:55:43,985] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:55:43,997] {logging_mixin.py:115} INFO - [2024-03-01 15:55:43,997] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:55:44,013] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.058 seconds
+[2024-03-01 15:56:15,070] {processor.py:153} INFO - Started process (PID=100772) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:56:15,071] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:56:15,071] {logging_mixin.py:115} INFO - [2024-03-01 15:56:15,071] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:56:15,084] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:56:15,113] {logging_mixin.py:115} INFO - [2024-03-01 15:56:15,113] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:56:15,125] {logging_mixin.py:115} INFO - [2024-03-01 15:56:15,125] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:56:15,141] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.074 seconds
+[2024-03-01 15:56:48,312] {processor.py:153} INFO - Started process (PID=100903) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:56:48,313] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:56:48,313] {logging_mixin.py:115} INFO - [2024-03-01 15:56:48,313] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:56:48,325] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:56:48,336] {logging_mixin.py:115} INFO - [2024-03-01 15:56:48,336] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:56:48,347] {logging_mixin.py:115} INFO - [2024-03-01 15:56:48,347] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:56:48,362] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2024-03-01 15:57:23,171] {processor.py:153} INFO - Started process (PID=101142) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:57:23,173] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:57:23,173] {logging_mixin.py:115} INFO - [2024-03-01 15:57:23,173] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:57:23,185] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:57:23,195] {logging_mixin.py:115} INFO - [2024-03-01 15:57:23,195] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:57:23,208] {logging_mixin.py:115} INFO - [2024-03-01 15:57:23,207] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:57:23,221] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2024-03-01 15:57:56,088] {processor.py:153} INFO - Started process (PID=101272) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:57:56,092] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:57:56,093] {logging_mixin.py:115} INFO - [2024-03-01 15:57:56,093] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:57:56,104] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:57:56,114] {logging_mixin.py:115} INFO - [2024-03-01 15:57:56,114] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:57:56,129] {logging_mixin.py:115} INFO - [2024-03-01 15:57:56,129] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:57:56,147] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2024-03-01 15:58:30,372] {processor.py:153} INFO - Started process (PID=101404) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:58:30,376] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:58:30,377] {logging_mixin.py:115} INFO - [2024-03-01 15:58:30,377] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:58:30,389] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:58:30,399] {logging_mixin.py:115} INFO - [2024-03-01 15:58:30,399] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:58:30,410] {logging_mixin.py:115} INFO - [2024-03-01 15:58:30,410] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:58:30,425] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 15:59:05,104] {processor.py:153} INFO - Started process (PID=101544) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:59:05,110] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:59:05,111] {logging_mixin.py:115} INFO - [2024-03-01 15:59:05,111] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:59:05,127] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:59:05,141] {logging_mixin.py:115} INFO - [2024-03-01 15:59:05,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:59:05,159] {logging_mixin.py:115} INFO - [2024-03-01 15:59:05,159] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:59:05,173] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.072 seconds
+[2024-03-01 15:59:38,343] {processor.py:153} INFO - Started process (PID=101673) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:59:38,347] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 15:59:38,348] {logging_mixin.py:115} INFO - [2024-03-01 15:59:38,348] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:59:38,360] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 15:59:38,388] {logging_mixin.py:115} INFO - [2024-03-01 15:59:38,388] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 15:59:38,399] {logging_mixin.py:115} INFO - [2024-03-01 15:59:38,399] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 15:59:38,416] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.075 seconds
+[2024-03-01 16:00:11,199] {processor.py:153} INFO - Started process (PID=101797) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 16:00:11,200] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 16:00:11,201] {logging_mixin.py:115} INFO - [2024-03-01 16:00:11,201] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 16:00:11,212] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 16:00:11,223] {logging_mixin.py:115} INFO - [2024-03-01 16:00:11,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 16:00:11,234] {logging_mixin.py:115} INFO - [2024-03-01 16:00:11,234] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 16:00:11,252] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-03-01 16:00:44,198] {processor.py:153} INFO - Started process (PID=101927) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 16:00:44,203] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-03-01 16:00:44,203] {logging_mixin.py:115} INFO - [2024-03-01 16:00:44,203] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 16:00:44,215] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2024-03-01 16:00:44,227] {logging_mixin.py:115} INFO - [2024-03-01 16:00:44,227] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-01 16:00:44,240] {logging_mixin.py:115} INFO - [2024-03-01 16:00:44,240] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2024-03-01 16:00:44,256] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds

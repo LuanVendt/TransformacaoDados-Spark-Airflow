@@ -1,0 +1,209 @@
+[2024-03-04 11:21:41,851] {processor.py:153} INFO - Started process (PID=17570) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:21:41,851] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 11:21:41,851] {logging_mixin.py:115} INFO - [2024-03-04 11:21:41,851] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:21:41,860] {logging_mixin.py:115} INFO - [2024-03-04 11:21:41,860] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 11:21:41,860] {logging_mixin.py:115} INFO - [2024-03-04 11:21:41,860] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 11:21:41,860] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:21:41,867] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2024-03-04 11:22:13,872] {processor.py:153} INFO - Started process (PID=17695) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:22:13,876] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 11:22:13,876] {logging_mixin.py:115} INFO - [2024-03-04 11:22:13,876] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:22:13,886] {logging_mixin.py:115} INFO - [2024-03-04 11:22:13,885] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 11:22:13,886] {logging_mixin.py:115} INFO - [2024-03-04 11:22:13,886] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 11:22:13,886] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:22:13,895] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2024-03-04 11:22:48,650] {processor.py:153} INFO - Started process (PID=17835) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:22:48,654] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 11:22:48,655] {logging_mixin.py:115} INFO - [2024-03-04 11:22:48,655] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:22:48,664] {logging_mixin.py:115} INFO - [2024-03-04 11:22:48,663] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 11:22:48,664] {logging_mixin.py:115} INFO - [2024-03-04 11:22:48,664] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 11:22:48,664] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 11:22:48,670] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2024-03-04 12:06:04,350] {processor.py:153} INFO - Started process (PID=28802) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:06:04,353] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:06:04,354] {logging_mixin.py:115} INFO - [2024-03-04 12:06:04,354] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:06:04,362] {logging_mixin.py:115} INFO - [2024-03-04 12:06:04,362] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:06:04,362] {logging_mixin.py:115} INFO - [2024-03-04 12:06:04,362] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:06:04,362] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:06:04,369] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2024-03-04 12:06:39,172] {processor.py:153} INFO - Started process (PID=29157) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:06:39,176] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:06:39,176] {logging_mixin.py:115} INFO - [2024-03-04 12:06:39,176] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:06:39,185] {logging_mixin.py:115} INFO - [2024-03-04 12:06:39,185] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:06:39,185] {logging_mixin.py:115} INFO - [2024-03-04 12:06:39,185] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:06:39,185] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:06:39,193] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2024-03-04 12:07:32,195] {processor.py:153} INFO - Started process (PID=29417) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:07:32,198] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:07:32,199] {logging_mixin.py:115} INFO - [2024-03-04 12:07:32,199] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:07:32,209] {logging_mixin.py:115} INFO - [2024-03-04 12:07:32,209] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:07:32,209] {logging_mixin.py:115} INFO - [2024-03-04 12:07:32,209] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:07:32,209] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:07:32,216] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2024-03-04 12:08:06,444] {processor.py:153} INFO - Started process (PID=29542) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:08:06,445] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:08:06,446] {logging_mixin.py:115} INFO - [2024-03-04 12:08:06,446] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:08:06,455] {logging_mixin.py:115} INFO - [2024-03-04 12:08:06,455] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:08:06,455] {logging_mixin.py:115} INFO - [2024-03-04 12:08:06,455] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:08:06,456] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:08:06,465] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2024-03-04 12:08:37,678] {processor.py:153} INFO - Started process (PID=29666) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:08:37,679] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:08:37,680] {logging_mixin.py:115} INFO - [2024-03-04 12:08:37,680] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:08:37,689] {logging_mixin.py:115} INFO - [2024-03-04 12:08:37,689] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:08:37,690] {logging_mixin.py:115} INFO - [2024-03-04 12:08:37,690] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:08:37,690] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:08:37,706] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2024-03-04 12:10:09,871] {processor.py:153} INFO - Started process (PID=30113) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:10:09,873] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:10:09,873] {logging_mixin.py:115} INFO - [2024-03-04 12:10:09,873] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:10:09,883] {logging_mixin.py:115} INFO - [2024-03-04 12:10:09,883] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:10:09,883] {logging_mixin.py:115} INFO - [2024-03-04 12:10:09,883] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:10:09,883] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:10:09,890] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2024-03-04 12:10:44,224] {processor.py:153} INFO - Started process (PID=30250) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:10:44,228] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:10:44,228] {logging_mixin.py:115} INFO - [2024-03-04 12:10:44,228] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:10:44,237] {logging_mixin.py:115} INFO - [2024-03-04 12:10:44,236] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:10:44,237] {logging_mixin.py:115} INFO - [2024-03-04 12:10:44,237] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:10:44,237] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:10:44,244] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2024-03-04 12:11:15,346] {processor.py:153} INFO - Started process (PID=30384) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:11:15,350] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:11:15,350] {logging_mixin.py:115} INFO - [2024-03-04 12:11:15,350] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:11:15,359] {logging_mixin.py:115} INFO - [2024-03-04 12:11:15,359] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:11:15,359] {logging_mixin.py:115} INFO - [2024-03-04 12:11:15,359] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:11:15,359] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:11:15,367] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.024 seconds
+[2024-03-04 12:14:28,134] {processor.py:153} INFO - Started process (PID=31280) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:14:28,135] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:14:28,136] {logging_mixin.py:115} INFO - [2024-03-04 12:14:28,135] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:14:28,144] {logging_mixin.py:115} INFO - [2024-03-04 12:14:28,144] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:14:28,144] {logging_mixin.py:115} INFO - [2024-03-04 12:14:28,144] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:14:28,145] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:14:28,152] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2024-03-04 12:15:02,396] {processor.py:153} INFO - Started process (PID=31416) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:15:02,398] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:15:02,398] {logging_mixin.py:115} INFO - [2024-03-04 12:15:02,398] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:15:02,409] {logging_mixin.py:115} INFO - [2024-03-04 12:15:02,408] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:15:02,409] {logging_mixin.py:115} INFO - [2024-03-04 12:15:02,409] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:15:02,409] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:15:02,417] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2024-03-04 12:15:34,725] {processor.py:153} INFO - Started process (PID=31544) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:15:34,726] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:15:34,726] {logging_mixin.py:115} INFO - [2024-03-04 12:15:34,726] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:15:34,735] {logging_mixin.py:115} INFO - [2024-03-04 12:15:34,735] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:15:34,735] {logging_mixin.py:115} INFO - [2024-03-04 12:15:34,735] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:15:34,735] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:15:34,742] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2024-03-04 12:16:26,946] {processor.py:153} INFO - Started process (PID=31852) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:16:26,947] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:16:26,948] {logging_mixin.py:115} INFO - [2024-03-04 12:16:26,948] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:16:26,957] {logging_mixin.py:115} INFO - [2024-03-04 12:16:26,956] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:16:26,957] {logging_mixin.py:115} INFO - [2024-03-04 12:16:26,957] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:16:26,957] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:16:26,964] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.020 seconds
+[2024-03-04 12:17:01,642] {processor.py:153} INFO - Started process (PID=31992) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:17:01,643] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:17:01,643] {logging_mixin.py:115} INFO - [2024-03-04 12:17:01,643] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:17:01,654] {logging_mixin.py:115} INFO - [2024-03-04 12:17:01,654] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:17:01,654] {logging_mixin.py:115} INFO - [2024-03-04 12:17:01,654] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:17:01,654] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:17:01,661] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds
+[2024-03-04 12:17:33,569] {processor.py:153} INFO - Started process (PID=32127) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:17:33,573] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:17:33,574] {logging_mixin.py:115} INFO - [2024-03-04 12:17:33,573] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:17:33,582] {logging_mixin.py:115} INFO - [2024-03-04 12:17:33,582] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:17:33,583] {logging_mixin.py:115} INFO - [2024-03-04 12:17:33,583] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:17:33,583] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:17:33,589] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2024-03-04 12:18:07,358] {processor.py:153} INFO - Started process (PID=32257) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:18:07,359] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:18:07,359] {logging_mixin.py:115} INFO - [2024-03-04 12:18:07,359] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:18:07,368] {logging_mixin.py:115} INFO - [2024-03-04 12:18:07,368] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:18:07,369] {logging_mixin.py:115} INFO - [2024-03-04 12:18:07,368] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:18:07,369] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:18:07,375] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2024-03-04 12:19:00,780] {processor.py:153} INFO - Started process (PID=32555) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:19:00,785] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-03-04 12:19:00,786] {logging_mixin.py:115} INFO - [2024-03-04 12:19:00,786] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:19:00,794] {logging_mixin.py:115} INFO - [2024-03-04 12:19:00,794] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-03-04 12:19:00,794] {logging_mixin.py:115} INFO - [2024-03-04 12:19:00,794] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-03-04 12:19:00,794] {processor.py:653} WARNING - No viable dags retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-03-04 12:19:00,800] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds

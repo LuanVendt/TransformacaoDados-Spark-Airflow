@@ -1,0 +1,144 @@
+[2024-03-04 11:21:34,164] {processor.py:153} INFO - Started process (PID=17539) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:21:34,164] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 11:21:34,164] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,164] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:21:34,171] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:21:34,232] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,232] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-03-04 11:21:34,243] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,243] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-03-04 11:21:34,253] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,253] {manager.py:508} INFO - Created Permission View: can read on DAG:example_complex
+[2024-03-04 11:21:34,253] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,253] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 11:21:34,259] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,259] {dag.py:2398} INFO - Creating ORM DAG for example_complex
+[2024-03-04 11:21:34,266] {logging_mixin.py:115} INFO - [2024-03-04 11:21:34,266] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 11:21:34,282] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2024-03-04 11:22:07,414] {processor.py:153} INFO - Started process (PID=17670) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:22:07,415] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 11:22:07,416] {logging_mixin.py:115} INFO - [2024-03-04 11:22:07,415] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:22:07,422] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:22:07,435] {logging_mixin.py:115} INFO - [2024-03-04 11:22:07,435] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 11:22:07,448] {logging_mixin.py:115} INFO - [2024-03-04 11:22:07,448] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 11:22:07,463] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2024-03-04 11:22:41,149] {processor.py:153} INFO - Started process (PID=17802) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:22:41,150] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 11:22:41,150] {logging_mixin.py:115} INFO - [2024-03-04 11:22:41,150] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:22:41,157] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 11:22:41,170] {logging_mixin.py:115} INFO - [2024-03-04 11:22:41,170] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 11:22:41,183] {logging_mixin.py:115} INFO - [2024-03-04 11:22:41,183] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 11:22:41,196] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2024-03-04 12:05:58,592] {processor.py:153} INFO - Started process (PID=28777) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:05:58,593] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:05:58,594] {logging_mixin.py:115} INFO - [2024-03-04 12:05:58,594] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:05:58,600] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:05:58,613] {logging_mixin.py:115} INFO - [2024-03-04 12:05:58,613] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:05:58,626] {logging_mixin.py:115} INFO - [2024-03-04 12:05:58,626] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:05:58,641] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.050 seconds
+[2024-03-04 12:06:32,509] {processor.py:153} INFO - Started process (PID=29132) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:06:32,510] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:06:32,510] {logging_mixin.py:115} INFO - [2024-03-04 12:06:32,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:06:32,518] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:06:32,543] {logging_mixin.py:115} INFO - [2024-03-04 12:06:32,543] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:06:32,564] {logging_mixin.py:115} INFO - [2024-03-04 12:06:32,564] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:06:32,583] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2024-03-04 12:07:26,439] {processor.py:153} INFO - Started process (PID=29398) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:07:26,441] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:07:26,442] {logging_mixin.py:115} INFO - [2024-03-04 12:07:26,442] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:07:26,449] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:07:26,463] {logging_mixin.py:115} INFO - [2024-03-04 12:07:26,463] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:07:26,478] {logging_mixin.py:115} INFO - [2024-03-04 12:07:26,478] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:07:26,493] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2024-03-04 12:07:59,044] {processor.py:153} INFO - Started process (PID=29511) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:07:59,049] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:07:59,049] {logging_mixin.py:115} INFO - [2024-03-04 12:07:59,049] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:07:59,056] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:07:59,068] {logging_mixin.py:115} INFO - [2024-03-04 12:07:59,068] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:07:59,081] {logging_mixin.py:115} INFO - [2024-03-04 12:07:59,081] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:07:59,097] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2024-03-04 12:08:31,128] {processor.py:153} INFO - Started process (PID=29641) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:08:31,129] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:08:31,129] {logging_mixin.py:115} INFO - [2024-03-04 12:08:31,129] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:08:31,136] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:08:31,150] {logging_mixin.py:115} INFO - [2024-03-04 12:08:31,150] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:08:31,165] {logging_mixin.py:115} INFO - [2024-03-04 12:08:31,165] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:08:31,179] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.053 seconds
+[2024-03-04 12:09:04,230] {processor.py:153} INFO - Started process (PID=29783) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:09:04,234] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:09:04,235] {logging_mixin.py:115} INFO - [2024-03-04 12:09:04,235] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:09:04,242] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:09:04,255] {logging_mixin.py:115} INFO - [2024-03-04 12:09:04,255] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:09:04,271] {logging_mixin.py:115} INFO - [2024-03-04 12:09:04,271] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:09:04,288] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2024-03-04 12:10:04,115] {processor.py:153} INFO - Started process (PID=30094) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:10:04,119] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:10:04,119] {logging_mixin.py:115} INFO - [2024-03-04 12:10:04,119] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:10:04,127] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:10:04,143] {logging_mixin.py:115} INFO - [2024-03-04 12:10:04,142] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:10:04,157] {logging_mixin.py:115} INFO - [2024-03-04 12:10:04,157] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:10:04,173] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2024-03-04 12:10:36,723] {processor.py:153} INFO - Started process (PID=30219) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:10:36,723] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:10:36,724] {logging_mixin.py:115} INFO - [2024-03-04 12:10:36,724] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:10:36,732] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:10:36,745] {logging_mixin.py:115} INFO - [2024-03-04 12:10:36,745] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:10:36,758] {logging_mixin.py:115} INFO - [2024-03-04 12:10:36,757] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:10:36,772] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2024-03-04 12:11:08,766] {processor.py:153} INFO - Started process (PID=30356) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:11:08,768] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:11:08,768] {logging_mixin.py:115} INFO - [2024-03-04 12:11:08,768] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:11:08,775] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:11:08,787] {logging_mixin.py:115} INFO - [2024-03-04 12:11:08,787] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:11:08,800] {logging_mixin.py:115} INFO - [2024-03-04 12:11:08,800] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:11:08,813] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2024-03-04 12:14:22,378] {processor.py:153} INFO - Started process (PID=31255) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:14:22,381] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:14:22,382] {logging_mixin.py:115} INFO - [2024-03-04 12:14:22,382] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:14:22,389] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:14:22,402] {logging_mixin.py:115} INFO - [2024-03-04 12:14:22,402] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:14:22,416] {logging_mixin.py:115} INFO - [2024-03-04 12:14:22,416] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:14:22,430] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2024-03-04 12:14:54,994] {processor.py:153} INFO - Started process (PID=31385) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:14:54,998] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:14:54,999] {logging_mixin.py:115} INFO - [2024-03-04 12:14:54,999] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:14:55,006] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:14:55,018] {logging_mixin.py:115} INFO - [2024-03-04 12:14:55,018] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:14:55,031] {logging_mixin.py:115} INFO - [2024-03-04 12:14:55,031] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:14:55,047] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2024-03-04 12:15:27,997] {processor.py:153} INFO - Started process (PID=31517) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:15:28,001] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:15:28,001] {logging_mixin.py:115} INFO - [2024-03-04 12:15:28,001] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:15:28,008] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:15:28,021] {logging_mixin.py:115} INFO - [2024-03-04 12:15:28,021] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:15:28,034] {logging_mixin.py:115} INFO - [2024-03-04 12:15:28,034] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:15:28,047] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2024-03-04 12:16:21,191] {processor.py:153} INFO - Started process (PID=31832) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:16:21,195] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:16:21,196] {logging_mixin.py:115} INFO - [2024-03-04 12:16:21,196] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:16:21,203] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:16:21,217] {logging_mixin.py:115} INFO - [2024-03-04 12:16:21,217] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:16:21,230] {logging_mixin.py:115} INFO - [2024-03-04 12:16:21,230] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:16:21,245] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2024-03-04 12:16:54,239] {processor.py:153} INFO - Started process (PID=31964) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:16:54,240] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:16:54,241] {logging_mixin.py:115} INFO - [2024-03-04 12:16:54,241] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:16:54,248] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:16:54,262] {logging_mixin.py:115} INFO - [2024-03-04 12:16:54,262] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:16:54,276] {logging_mixin.py:115} INFO - [2024-03-04 12:16:54,276] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:16:54,289] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.052 seconds
+[2024-03-04 12:17:27,460] {processor.py:153} INFO - Started process (PID=32102) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:17:27,462] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:17:27,462] {logging_mixin.py:115} INFO - [2024-03-04 12:17:27,462] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:17:27,469] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:17:27,482] {logging_mixin.py:115} INFO - [2024-03-04 12:17:27,482] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:17:27,495] {logging_mixin.py:115} INFO - [2024-03-04 12:17:27,495] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:17:27,509] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2024-03-04 12:18:00,054] {processor.py:153} INFO - Started process (PID=32226) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:18:00,058] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:18:00,059] {logging_mixin.py:115} INFO - [2024-03-04 12:18:00,058] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:18:00,067] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:18:00,082] {logging_mixin.py:115} INFO - [2024-03-04 12:18:00,082] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:18:00,096] {logging_mixin.py:115} INFO - [2024-03-04 12:18:00,096] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:18:00,112] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2024-03-04 12:18:55,026] {processor.py:153} INFO - Started process (PID=32530) to work on /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:18:55,028] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-03-04 12:18:55,029] {logging_mixin.py:115} INFO - [2024-03-04 12:18:55,029] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:18:55,035] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-03-04 12:18:55,047] {logging_mixin.py:115} INFO - [2024-03-04 12:18:55,047] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-04 12:18:55,060] {logging_mixin.py:115} INFO - [2024-03-04 12:18:55,060] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-03-04 12:18:55,074] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.050 seconds
