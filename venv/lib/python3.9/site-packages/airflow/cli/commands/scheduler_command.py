@@ -14,75 +14,87 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+"""Scheduler command."""
+from __future__ import annotations
 
-"""Scheduler command"""
-import signal
+import logging
+from argparse import Namespace
+from contextlib import ExitStack, contextmanager
 from multiprocessing import Process
-from typing import Optional
-
-import daemon
-from daemon.pidfile import TimeoutPIDLockFile
 
 from airflow import settings
-from airflow.jobs.scheduler_job import SchedulerJob
+from airflow.api_internal.internal_api_call import InternalApiConfig
+from airflow.cli.commands.daemon_utils import run_command_with_daemon_option
+from airflow.configuration import conf
+from airflow.executors.executor_loader import ExecutorLoader
+from airflow.jobs.job import Job, run_job
+from airflow.jobs.scheduler_job_runner import SchedulerJobRunner
 from airflow.utils import cli as cli_utils
-from airflow.utils.cli import process_subdir, setup_locations, setup_logging, sigint_handler, sigquit_handler
+from airflow.utils.cli import process_subdir
+from airflow.utils.providers_configuration_loader import providers_configuration_loaded
+from airflow.utils.scheduler_health import serve_health_check
+
+log = logging.getLogger(__name__)
 
 
-def _create_scheduler_job(args):
-    job = SchedulerJob(
-        subdir=process_subdir(args.subdir),
-        num_runs=args.num_runs,
-        do_pickle=args.do_pickle,
+def _run_scheduler_job(args) -> None:
+    job_runner = SchedulerJobRunner(
+        job=Job(), subdir=process_subdir(args.subdir), num_runs=args.num_runs, do_pickle=args.do_pickle
     )
-    return job
+    ExecutorLoader.validate_database_executor_compatibility(job_runner.job.executor)
+    InternalApiConfig.force_database_direct_access()
+    enable_health_check = conf.getboolean("scheduler", "ENABLE_HEALTH_CHECK")
+    with ExitStack() as stack:
+        stack.enter_context(_serve_logs(args.skip_serve_logs))
+        stack.enter_context(_serve_health_check(enable_health_check))
 
-
-def _run_scheduler_job(args):
-    skip_serve_logs = args.skip_serve_logs
-    job = _create_scheduler_job(args)
-    sub_proc = _serve_logs(skip_serve_logs)
-    try:
-        job.run()
-    finally:
-        if sub_proc:
-            sub_proc.terminate()
+        try:
+            run_job(job=job_runner.job, execute_callable=job_runner._execute)
+        except Exception:
+            log.exception("Exception when running scheduler job")
+            raise
+        finally:
+            # Ensure that the contexts are closed
+            stack.close()
 
 
 @cli_utils.action_cli
-def scheduler(args):
-    """Starts Airflow Scheduler"""
+@providers_configuration_loaded
+def scheduler(args: Namespace):
+    """Start Airflow Scheduler."""
     print(settings.HEADER)
 
-    if args.daemon:
-        pid, stdout, stderr, log_file = setup_locations(
-            "scheduler", args.pid, args.stdout, args.stderr, args.log_file
-        )
-        handle = setup_logging(log_file)
-        with open(stdout, 'w+') as stdout_handle, open(stderr, 'w+') as stderr_handle:
-            ctx = daemon.DaemonContext(
-                pidfile=TimeoutPIDLockFile(pid, -1),
-                files_preserve=[handle],
-                stdout=stdout_handle,
-                stderr=stderr_handle,
-            )
-            with ctx:
-                _run_scheduler_job(args=args)
-    else:
-        signal.signal(signal.SIGINT, sigint_handler)
-        signal.signal(signal.SIGTERM, sigint_handler)
-        signal.signal(signal.SIGQUIT, sigquit_handler)
-        _run_scheduler_job(args=args)
+    run_command_with_daemon_option(
+        args=args,
+        process_name="scheduler",
+        callback=lambda: _run_scheduler_job(args),
+        should_setup_logging=True,
+    )
 
 
-def _serve_logs(skip_serve_logs: bool = False) -> Optional[Process]:
-    """Starts serve_logs sub-process"""
-    from airflow.configuration import conf
+@contextmanager
+def _serve_logs(skip_serve_logs: bool = False):
+    """Start serve_logs sub-process."""
     from airflow.utils.serve_logs import serve_logs
 
-    if conf.get("core", "executor") in ["LocalExecutor", "SequentialExecutor"]:
+    sub_proc = None
+    executor_class, _ = ExecutorLoader.import_default_executor_cls()
+    if executor_class.serve_logs:
         if skip_serve_logs is False:
             sub_proc = Process(target=serve_logs)
             sub_proc.start()
-            return sub_proc
-    return None
+    yield
+    if sub_proc:
+        sub_proc.terminate()
+
+
+@contextmanager
+def _serve_health_check(enable_health_check: bool = False):
+    """Start serve_health_check sub-process."""
+    sub_proc = None
+    if enable_health_check:
+        sub_proc = Process(target=serve_health_check)
+        sub_proc.start()
+    yield
+    if sub_proc:
+        sub_proc.terminate()

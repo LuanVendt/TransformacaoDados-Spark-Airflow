@@ -14,37 +14,40 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
 
-from typing import List, NamedTuple
+from typing import NamedTuple
 
 from marshmallow import Schema, fields
 
 
 class PluginSchema(Schema):
-    """Plugin schema"""
+    """Plugin schema."""
 
-    number = fields.Int()
     name = fields.String()
     hooks = fields.List(fields.String())
     executors = fields.List(fields.String())
     macros = fields.List(fields.String())
     flask_blueprints = fields.List(fields.String())
-    appbuilder_views = fields.List(fields.String())
+    appbuilder_views = fields.List(fields.Dict())
     appbuilder_menu_items = fields.List(fields.Dict())
     global_operator_extra_links = fields.List(fields.String())
     operator_extra_links = fields.List(fields.String())
     source = fields.String()
+    ti_deps = fields.List(fields.String())
+    listeners = fields.List(fields.String())
+    timetables = fields.List(fields.String())
 
 
 class PluginCollection(NamedTuple):
-    """Plugin List"""
+    """Plugin List."""
 
-    plugins: List
+    plugins: list
     total_entries: int
 
 
 class PluginCollectionSchema(Schema):
-    """Plugin Collection List"""
+    """Plugin Collection List."""
 
     plugins = fields.List(fields.Nested(PluginSchema))
     total_entries = fields.Int()

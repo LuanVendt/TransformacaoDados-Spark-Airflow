@@ -14,28 +14,28 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+"""Serialized DAG and BaseOperator."""
+from __future__ import annotations
 
-"""Serialized DAG and BaseOperator"""
-from typing import Any, Union
+from typing import Any
 
 from airflow.settings import json
 
 
-def serialize_template_field(template_field: Any) -> Union[str, dict, list, int, float]:
-    """
-    Return a serializable representation of the templated_field.
-    If a templated_field contains a Class or Instance for recursive templating, store them
-    as strings. If the templated_field is not recursive return the field
+def serialize_template_field(template_field: Any) -> str | dict | list | int | float:
+    """Return a serializable representation of the templated field.
 
-    :param template_field: Task's Templated Field
+    If ``templated_field`` contains a class or instance that requires recursive
+    templating, store them as strings. Otherwise simply return the field as-is.
     """
 
     def is_jsonable(x):
         try:
             json.dumps(x)
-            return True
         except (TypeError, OverflowError):
             return False
+        else:
+            return True
 
     if not is_jsonable(template_field):
         return str(template_field)

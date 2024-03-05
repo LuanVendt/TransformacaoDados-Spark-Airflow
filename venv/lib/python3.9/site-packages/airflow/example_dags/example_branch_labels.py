@@ -15,19 +15,20 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-
 """
 Example DAG demonstrating the usage of labels with different branches.
 """
+from __future__ import annotations
+
 import pendulum
 
-from airflow import DAG
+from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.utils.edgemodifier import Label
 
 with DAG(
     "example_branch_labels",
-    schedule_interval="@daily",
+    schedule="@daily",
     start_date=pendulum.datetime(2021, 1, 1, tz="UTC"),
     catchup=False,
 ) as dag:

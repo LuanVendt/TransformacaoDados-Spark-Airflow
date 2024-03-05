@@ -1,5 +1,7 @@
 from pyspark.sql import functions as f
+from pyspark.sql import SparkSession
 from os.path import join
+import argparse
 
 def get_tweets_data(df):
     tweet_df = df.select(f.explode("data").alias("tweets"))\
@@ -28,3 +30,22 @@ def twitter_transformation(spark, src, dest, process_date):
     
     export_json(tweet_df, table_dest.format(table_name='tweet'))
     export_json(user_df, table_dest.format(table_name='user'))
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(
+        description='Spark Twitter Transformation'
+    )
+    parser.add_argument('--src', required=True)
+    parser.add_argument('--dest', required=True)
+    parser.add_argument('--process-date', required=True)
+
+    args = parser.parse_args()
+
+    spark = SparkSession\
+        .builder\
+        .appName('twitter_transformation')\
+        .getOrCreate()
+    
+    twitter_transformation(spark, args.src, args.dest, args.process_date)

@@ -14,28 +14,32 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-"""Session authentication backend"""
+"""Session authentication backend."""
+from __future__ import annotations
+
 from functools import wraps
-from typing import Any, Callable, Optional, Tuple, TypeVar, Union, cast
+from typing import Any, Callable, TypeVar, cast
 
-from flask import Response, g
+from flask import Response
 
-CLIENT_AUTH: Optional[Union[Tuple[str, str], Any]] = None
+from airflow.www.extensions.init_auth_manager import get_auth_manager
+
+CLIENT_AUTH: tuple[str, str] | Any | None = None
 
 
 def init_app(_):
-    """Initializes authentication backend"""
+    """Initialize authentication backend."""
 
 
 T = TypeVar("T", bound=Callable)
 
 
 def requires_authentication(function: T):
-    """Decorator for functions that require authentication"""
+    """Decorate functions that require authentication."""
 
     @wraps(function)
     def decorated(*args, **kwargs):
-        if g.user.is_anonymous:
+        if not get_auth_manager().is_logged_in():
             return Response("Unauthorized", 401, {})
         return function(*args, **kwargs)
 

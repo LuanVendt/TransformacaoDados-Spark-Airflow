@@ -14,24 +14,27 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
 
-from typing import List, NamedTuple
+from typing import TYPE_CHECKING, NamedTuple
 
 from itsdangerous import URLSafeSerializer
 from marshmallow import Schema, fields
 from marshmallow_sqlalchemy import SQLAlchemySchema, auto_field
 
-from airflow import DAG
 from airflow.api_connexion.schemas.common_schema import ScheduleIntervalSchema, TimeDeltaSchema, TimezoneField
 from airflow.configuration import conf
 from airflow.models.dag import DagModel, DagTag
 
+if TYPE_CHECKING:
+    from airflow import DAG
+
 
 class DagTagSchema(SQLAlchemySchema):
-    """Dag Tag schema"""
+    """Dag Tag schema."""
 
     class Meta:
-        """Meta"""
+        """Meta."""
 
         model = DagTag
 
@@ -39,10 +42,10 @@ class DagTagSchema(SQLAlchemySchema):
 
 
 class DAGSchema(SQLAlchemySchema):
-    """DAG schema"""
+    """DAG schema."""
 
     class Meta:
-        """Meta"""
+        """Meta."""
 
         model = DagModel
 
@@ -75,20 +78,20 @@ class DAGSchema(SQLAlchemySchema):
 
     @staticmethod
     def get_owners(obj: DagModel):
-        """Convert owners attribute to DAG representation"""
-        if not getattr(obj, 'owners', None):
+        """Convert owners attribute to DAG representation."""
+        if not getattr(obj, "owners", None):
             return []
         return obj.owners.split(",")
 
     @staticmethod
     def get_token(obj: DagModel):
-        """Return file token"""
-        serializer = URLSafeSerializer(conf.get('webserver', 'secret_key'))
+        """Return file token."""
+        serializer = URLSafeSerializer(conf.get_mandatory_value("webserver", "secret_key"))
         return serializer.dumps(obj.fileloc)
 
 
 class DAGDetailSchema(DAGSchema):
-    """DAG details"""
+    """DAG details."""
 
     owners = fields.Method("get_owners", dump_only=True)
     timezone = TimezoneField()
@@ -100,15 +103,15 @@ class DAGDetailSchema(DAGSchema):
     dag_run_timeout = fields.Nested(TimeDeltaSchema, attribute="dagrun_timeout")
     doc_md = fields.String()
     default_view = fields.String()
-    params = fields.Method('get_params', dump_only=True)
+    params = fields.Method("get_params", dump_only=True)
     tags = fields.Method("get_tags", dump_only=True)  # type: ignore
     is_paused = fields.Method("get_is_paused", dump_only=True)
     is_active = fields.Method("get_is_active", dump_only=True)
     is_paused_upon_creation = fields.Boolean()
     end_date = fields.DateTime(dump_only=True)
-    template_search_path = fields.String(dump_only=True)
+    template_searchpath = fields.String(dump_only=True)
     render_template_as_native_obj = fields.Boolean(dump_only=True)
-    last_loaded = fields.DateTime(dump_only=True, data_key='last_parsed')
+    last_loaded = fields.DateTime(dump_only=True, data_key="last_parsed")
 
     @staticmethod
     def get_concurrency(obj: DAG):
@@ -116,45 +119,45 @@ class DAGDetailSchema(DAGSchema):
 
     @staticmethod
     def get_tags(obj: DAG):
-        """Dumps tags as objects"""
+        """Dump tags as objects."""
         tags = obj.tags
         if tags:
-            return [DagTagSchema().dump(dict(name=tag)) for tag in tags]
+            return [DagTagSchema().dump({"name": tag}) for tag in tags]
         return []
 
     @staticmethod
     def get_owners(obj: DAG):
-        """Convert owners attribute to DAG representation"""
-        if not getattr(obj, 'owner', None):
+        """Convert owners attribute to DAG representation."""
+        if not getattr(obj, "owner", None):
             return []
         return obj.owner.split(",")
 
     @staticmethod
     def get_is_paused(obj: DAG):
-        """Checks entry in DAG table to see if this DAG is paused"""
+        """Check entry in DAG table to see if this DAG is paused."""
         return obj.get_is_paused()
 
     @staticmethod
     def get_is_active(obj: DAG):
-        """Checks entry in DAG table to see if this DAG is active"""
+        """Check entry in DAG table to see if this DAG is active."""
         return obj.get_is_active()
 
     @staticmethod
     def get_params(obj: DAG):
-        """Get the Params defined in a DAG"""
+        """Get the Params defined in a DAG."""
         params = obj.params
         return {k: v.dump() for k, v in params.items()}
 
 
 class DAGCollection(NamedTuple):
-    """List of DAGs with metadata"""
+    """List of DAGs with metadata."""
 
-    dags: List[DagModel]
+    dags: list[DagModel]
     total_entries: int
 
 
 class DAGCollectionSchema(Schema):
-    """DAG Collection schema"""
+    """DAG Collection schema."""
 
     dags = fields.List(fields.Nested(DAGSchema))
     total_entries = fields.Int()

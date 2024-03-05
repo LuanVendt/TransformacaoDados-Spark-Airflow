@@ -15,80 +15,72 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-#
-"""Utilities for creating a virtual environment"""
+"""Utilities for creating a virtual environment."""
+from __future__ import annotations
+
 import os
 import sys
-from collections import deque
-from typing import List, Optional
+import warnings
+from pathlib import Path
 
 import jinja2
+from jinja2 import select_autoescape
 
+from airflow.utils.decorators import remove_task_decorator as _remove_task_decorator
 from airflow.utils.process_utils import execute_in_subprocess
 
 
-def _generate_virtualenv_cmd(tmp_dir: str, python_bin: str, system_site_packages: bool) -> List[str]:
-    cmd = [sys.executable, '-m', 'virtualenv', tmp_dir]
+def _generate_virtualenv_cmd(tmp_dir: str, python_bin: str, system_site_packages: bool) -> list[str]:
+    cmd = [sys.executable, "-m", "virtualenv", tmp_dir]
     if system_site_packages:
-        cmd.append('--system-site-packages')
+        cmd.append("--system-site-packages")
     if python_bin is not None:
-        cmd.append(f'--python={python_bin}')
+        cmd.append(f"--python={python_bin}")
     return cmd
 
 
 def _generate_pip_install_cmd_from_file(
-    tmp_dir: str, requirements_file_path: str, pip_install_options: List[str]
-) -> List[str]:
-    cmd = [f'{tmp_dir}/bin/pip', 'install'] + pip_install_options + ['-r']
-    return cmd + [requirements_file_path]
+    tmp_dir: str, requirements_file_path: str, pip_install_options: list[str]
+) -> list[str]:
+    return [f"{tmp_dir}/bin/pip", "install", *pip_install_options, "-r", requirements_file_path]
 
 
 def _generate_pip_install_cmd_from_list(
-    tmp_dir: str, requirements: List[str], pip_install_options: List[str]
-) -> List[str]:
-    cmd = [f'{tmp_dir}/bin/pip', 'install'] + pip_install_options
-    return cmd + requirements
+    tmp_dir: str, requirements: list[str], pip_install_options: list[str]
+) -> list[str]:
+    return [f"{tmp_dir}/bin/pip", "install", *pip_install_options, *requirements]
 
 
-def _balance_parens(after_decorator):
-    num_paren = 1
-    after_decorator = deque(after_decorator)
-    after_decorator.popleft()
-    while num_paren:
-        current = after_decorator.popleft()
-        if current == "(":
-            num_paren = num_paren + 1
-        elif current == ")":
-            num_paren = num_paren - 1
-    return ''.join(after_decorator)
+def _generate_pip_conf(conf_file: Path, index_urls: list[str]) -> None:
+    if index_urls:
+        pip_conf_options = f"index-url = {index_urls[0]}"
+        if len(index_urls) > 1:
+            pip_conf_options += f"\nextra-index-url = {' '.join(x for x in index_urls[1:])}"
+    else:
+        pip_conf_options = "no-index = true"
+    conf_file.write_text(f"[global]\n{pip_conf_options}")
 
 
 def remove_task_decorator(python_source: str, task_decorator_name: str) -> str:
-    """
-    Removed @task.virtualenv
-
-    :param python_source:
-    """
-    if task_decorator_name not in python_source:
-        return python_source
-    split = python_source.split(task_decorator_name)
-    before_decorator, after_decorator = split[0], split[1]
-    if after_decorator[0] == "(":
-        after_decorator = _balance_parens(after_decorator)
-    if after_decorator[0] == "\n":
-        after_decorator = after_decorator[1:]
-    return before_decorator + after_decorator
+    warnings.warn(
+        "Import remove_task_decorator from airflow.utils.decorators instead",
+        DeprecationWarning,
+        stacklevel=2,
+    )
+    return _remove_task_decorator(python_source, task_decorator_name)
 
 
 def prepare_virtualenv(
     venv_directory: str,
     python_bin: str,
     system_site_packages: bool,
-    requirements: Optional[List[str]] = None,
-    requirements_file_path: Optional[str] = None,
-    pip_install_options: Optional[List[str]] = None,
+    requirements: list[str] | None = None,
+    requirements_file_path: str | None = None,
+    pip_install_options: list[str] | None = None,
+    index_urls: list[str] | None = None,
 ) -> str:
-    """Creates a virtual environment and installs the additional python packages.
+    """
+    Create a virtual environment and install the additional python packages.
 
     :param venv_directory: The path for directory where the environment will be created.
     :param python_bin: Path to the Python executable.
@@ -96,11 +88,17 @@ def prepare_virtualenv(
         See virtualenv documentation for more information.
     :param requirements: List of additional python packages.
     :param requirements_file_path: Path to the ``requirements.txt`` file.
+    :param pip_install_options: a list of pip install options when installing requirements
+        See 'pip install -h' for available options
+    :param index_urls: an optional list of index urls to load Python packages from.
+        If not provided the system pip conf will be used to source packages from.
     :return: Path to a binary file with Python in a virtual environment.
-    :rtype: str
     """
     if pip_install_options is None:
         pip_install_options = []
+
+    if index_urls is not None:
+        _generate_pip_conf(Path(venv_directory) / "pip.conf", index_urls)
 
     virtualenv_cmd = _generate_virtualenv_cmd(venv_directory, python_bin, system_site_packages)
     execute_in_subprocess(virtualenv_cmd)
@@ -119,7 +117,7 @@ def prepare_virtualenv(
     if pip_cmd:
         execute_in_subprocess(pip_cmd)
 
-    return f'{venv_directory}/bin/python'
+    return f"{venv_directory}/bin/python"
 
 
 def write_python_script(
@@ -128,7 +126,7 @@ def write_python_script(
     render_template_as_native_obj: bool = False,
 ):
     """
-    Renders the python script to a file to execute in the virtual environment.
+    Render the python script to a file to execute in the virtual environment.
 
     :param jinja_context: The jinja context variables to unpack and replace with its placeholders in the
         template file.
@@ -143,6 +141,10 @@ def write_python_script(
             loader=template_loader, undefined=jinja2.StrictUndefined
         )
     else:
-        template_env = jinja2.Environment(loader=template_loader, undefined=jinja2.StrictUndefined)
-    template = template_env.get_template('python_virtualenv_script.jinja2')
+        template_env = jinja2.Environment(
+            loader=template_loader,
+            undefined=jinja2.StrictUndefined,
+            autoescape=select_autoescape(["html", "xml"]),
+        )
+    template = template_env.get_template("python_virtualenv_script.jinja2")
     template.stream(**jinja_context).dump(filename)

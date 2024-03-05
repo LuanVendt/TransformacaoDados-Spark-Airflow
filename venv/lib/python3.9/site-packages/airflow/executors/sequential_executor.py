@@ -16,29 +16,43 @@
 # specific language governing permissions and limitations
 # under the License.
 """
-SequentialExecutor
+SequentialExecutor.
 
 .. seealso::
     For more information on how the SequentialExecutor works, take a look at the guide:
     :ref:`executor:SequentialExecutor`
 """
-import subprocess
-from typing import Any, Optional
+from __future__ import annotations
 
-from airflow.executors.base_executor import BaseExecutor, CommandType
-from airflow.models.taskinstance import TaskInstanceKey
-from airflow.utils.state import State
+import subprocess
+from typing import TYPE_CHECKING, Any
+
+from airflow.executors.base_executor import BaseExecutor
+
+if TYPE_CHECKING:
+    from airflow.executors.base_executor import CommandType
+    from airflow.models.taskinstancekey import TaskInstanceKey
 
 
 class SequentialExecutor(BaseExecutor):
     """
-    This executor will only run one task instance at a time, can be used
-    for debugging. It is also the only executor that can be used with sqlite
-    since sqlite doesn't support multiple connections.
+    This executor will only run one task instance at a time.
+
+    It can be used for debugging. It is also the only executor
+    that can be used with sqlite since sqlite doesn't support
+    multiple connections.
 
     Since we want airflow to work out of the box, it defaults to this
     SequentialExecutor alongside sqlite as you first install it.
     """
+
+    supports_pickling: bool = False
+
+    is_local: bool = True
+    is_single_threaded: bool = True
+    is_production: bool = False
+
+    serve_logs: bool = True
 
     def __init__(self):
         super().__init__()
@@ -48,10 +62,10 @@ class SequentialExecutor(BaseExecutor):
         self,
         key: TaskInstanceKey,
         command: CommandType,
-        queue: Optional[str] = None,
-        executor_config: Optional[Any] = None,
+        queue: str | None = None,
+        executor_config: Any | None = None,
     ) -> None:
-        self.validate_command(command)
+        self.validate_airflow_tasks_run_command(command)
         self.commands_to_run.append((key, command))
 
     def sync(self) -> None:
@@ -60,10 +74,10 @@ class SequentialExecutor(BaseExecutor):
 
             try:
                 subprocess.check_call(command, close_fds=True)
-                self.change_state(key, State.SUCCESS)
+                self.success(key)
             except subprocess.CalledProcessError as e:
-                self.change_state(key, State.FAILED)
-                self.log.error("Failed to execute task %s.", str(e))
+                self.fail(key)
+                self.log.error("Failed to execute task %s.", e)
 
         self.commands_to_run = []
 

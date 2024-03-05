@@ -14,20 +14,26 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+from __future__ import annotations
+
 import contextlib
 from functools import wraps
 from inspect import signature
 from typing import Callable, Generator, TypeVar, cast
 
+from sqlalchemy.orm import Session as SASession
+
 from airflow import settings
+from airflow.typing_compat import ParamSpec
 
 
 @contextlib.contextmanager
-def create_session() -> Generator[settings.SASession, None, None]:
+def create_session() -> Generator[SASession, None, None]:
     """Contextmanager that will create and teardown a session."""
-    if not settings.Session:
+    Session = getattr(settings, "Session", None)
+    if Session is None:
         raise RuntimeError("Session must be set before!")
-    session = settings.Session()
+    session = Session()
     try:
         yield session
         session.commit()
@@ -38,10 +44,11 @@ def create_session() -> Generator[settings.SASession, None, None]:
         session.close()
 
 
+PS = ParamSpec("PS")
 RT = TypeVar("RT")
 
 
-def find_session_idx(func: Callable[..., RT]) -> int:
+def find_session_idx(func: Callable[PS, RT]) -> int:
     """Find session index in function call parameter."""
     func_params = signature(func).parameters
     try:
@@ -53,9 +60,10 @@ def find_session_idx(func: Callable[..., RT]) -> int:
     return session_args_idx
 
 
-def provide_session(func: Callable[..., RT]) -> Callable[..., RT]:
+def provide_session(func: Callable[PS, RT]) -> Callable[PS, RT]:
     """
-    Function decorator that provides a session if it isn't provided.
+    Provide a session if it isn't provided.
+
     If you want to reuse a session or run the function as part of a
     database transaction, you pass it to the function, if not this wrapper
     will create one and close it for you.
@@ -74,7 +82,7 @@ def provide_session(func: Callable[..., RT]) -> Callable[..., RT]:
 
 
 # A fake session to use in functions decorated by provide_session. This allows
-# the 'session' argument to be of type Session instead of Optional[Session],
+# the 'session' argument to be of type Session instead of Session | None,
 # making it easier to type hint the function body without dealing with the None
 # case that can never happen at runtime.
-NEW_SESSION: settings.SASession = cast(settings.SASession, None)
+NEW_SESSION: SASession = cast(SASession, None)

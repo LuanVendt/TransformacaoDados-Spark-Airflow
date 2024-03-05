@@ -15,52 +15,55 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-#
+from __future__ import annotations
+
 from datetime import datetime
-from typing import Any, Callable, Collection, Dict, Mapping, TypeVar
+from typing import Any, Callable, Collection, Mapping, TypeVar
 
 from airflow import settings
 from airflow.utils.context import Context, lazy_mapping_from_context
 
 R = TypeVar("R")
 
-DEFAULT_FORMAT_PREFIX = 'airflow.ctx.'
-ENV_VAR_FORMAT_PREFIX = 'AIRFLOW_CTX_'
+DEFAULT_FORMAT_PREFIX = "airflow.ctx."
+ENV_VAR_FORMAT_PREFIX = "AIRFLOW_CTX_"
 
 AIRFLOW_VAR_NAME_FORMAT_MAPPING = {
-    'AIRFLOW_CONTEXT_DAG_ID': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}dag_id',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}DAG_ID',
+    "AIRFLOW_CONTEXT_DAG_ID": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}dag_id",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}DAG_ID",
     },
-    'AIRFLOW_CONTEXT_TASK_ID': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}task_id',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}TASK_ID',
+    "AIRFLOW_CONTEXT_TASK_ID": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}task_id",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}TASK_ID",
     },
-    'AIRFLOW_CONTEXT_EXECUTION_DATE': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}execution_date',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}EXECUTION_DATE',
+    "AIRFLOW_CONTEXT_EXECUTION_DATE": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}execution_date",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}EXECUTION_DATE",
     },
-    'AIRFLOW_CONTEXT_TRY_NUMBER': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}try_number',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}TRY_NUMBER',
+    "AIRFLOW_CONTEXT_TRY_NUMBER": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}try_number",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}TRY_NUMBER",
     },
-    'AIRFLOW_CONTEXT_DAG_RUN_ID': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}dag_run_id',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}DAG_RUN_ID',
+    "AIRFLOW_CONTEXT_DAG_RUN_ID": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}dag_run_id",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}DAG_RUN_ID",
     },
-    'AIRFLOW_CONTEXT_DAG_OWNER': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}dag_owner',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}DAG_OWNER',
+    "AIRFLOW_CONTEXT_DAG_OWNER": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}dag_owner",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}DAG_OWNER",
     },
-    'AIRFLOW_CONTEXT_DAG_EMAIL': {
-        'default': f'{DEFAULT_FORMAT_PREFIX}dag_email',
-        'env_var_format': f'{ENV_VAR_FORMAT_PREFIX}DAG_EMAIL',
+    "AIRFLOW_CONTEXT_DAG_EMAIL": {
+        "default": f"{DEFAULT_FORMAT_PREFIX}dag_email",
+        "env_var_format": f"{ENV_VAR_FORMAT_PREFIX}DAG_EMAIL",
     },
 }
 
 
-def context_to_airflow_vars(context: Mapping[str, Any], in_env_var_format: bool = False) -> Dict[str, str]:
+def context_to_airflow_vars(context: Mapping[str, Any], in_env_var_format: bool = False) -> dict[str, str]:
     """
+    Return values used to externally reconstruct relations between dags, dag_runs, tasks and task_instances.
+
     Given a context, this function provides a dictionary of values that can be used to
     externally reconstruct relations between dags, dag_runs, tasks and task_instances.
     Default to abc.def.ghi format and can be made to ABC_DEF_GHI format if
@@ -72,22 +75,22 @@ def context_to_airflow_vars(context: Mapping[str, Any], in_env_var_format: bool 
     """
     params = {}
     if in_env_var_format:
-        name_format = 'env_var_format'
+        name_format = "env_var_format"
     else:
-        name_format = 'default'
+        name_format = "default"
 
-    task = context.get('task')
-    task_instance = context.get('task_instance')
-    dag_run = context.get('dag_run')
+    task = context.get("task")
+    task_instance = context.get("task_instance")
+    dag_run = context.get("dag_run")
 
     ops = [
-        (task, 'email', 'AIRFLOW_CONTEXT_DAG_EMAIL'),
-        (task, 'owner', 'AIRFLOW_CONTEXT_DAG_OWNER'),
-        (task_instance, 'dag_id', 'AIRFLOW_CONTEXT_DAG_ID'),
-        (task_instance, 'task_id', 'AIRFLOW_CONTEXT_TASK_ID'),
-        (task_instance, 'execution_date', 'AIRFLOW_CONTEXT_EXECUTION_DATE'),
-        (task_instance, 'try_number', 'AIRFLOW_CONTEXT_TRY_NUMBER'),
-        (dag_run, 'run_id', 'AIRFLOW_CONTEXT_DAG_RUN_ID'),
+        (task, "email", "AIRFLOW_CONTEXT_DAG_EMAIL"),
+        (task, "owner", "AIRFLOW_CONTEXT_DAG_OWNER"),
+        (task_instance, "dag_id", "AIRFLOW_CONTEXT_DAG_ID"),
+        (task_instance, "task_id", "AIRFLOW_CONTEXT_TASK_ID"),
+        (task_instance, "execution_date", "AIRFLOW_CONTEXT_EXECUTION_DATE"),
+        (task_instance, "try_number", "AIRFLOW_CONTEXT_TRY_NUMBER"),
+        (dag_run, "run_id", "AIRFLOW_CONTEXT_DAG_RUN_ID"),
     ]
 
     context_params = settings.get_airflow_context_vars(context)
@@ -115,7 +118,7 @@ def context_to_airflow_vars(context: Mapping[str, Any], in_env_var_format: bool 
                 params[mapping_value] = _attr.isoformat()
             elif isinstance(_attr, list):
                 # os env variable value needs to be string
-                params[mapping_value] = ','.join(_attr)
+                params[mapping_value] = ",".join(_attr)
             else:
                 params[mapping_value] = str(_attr)
 
@@ -147,7 +150,7 @@ class KeywordParameters:
         func: Callable[..., Any],
         args: Collection[Any],
         kwargs: Mapping[str, Any],
-    ) -> "KeywordParameters":
+    ) -> KeywordParameters:
         import inspect
         import itertools
 
@@ -169,7 +172,7 @@ class KeywordParameters:
 
     def unpacking(self) -> Mapping[str, Any]:
         """Dump the kwargs mapping to unpack with ``**`` in a function call."""
-        if self._wildcard and isinstance(self._kwargs, Context):
+        if self._wildcard and isinstance(self._kwargs, Context):  # type: ignore[misc]
             return lazy_mapping_from_context(self._kwargs)
         return self._kwargs
 
@@ -184,12 +187,10 @@ def determine_kwargs(
     kwargs: Mapping[str, Any],
 ) -> Mapping[str, Any]:
     """
-    Inspect the signature of a given callable to determine which arguments in kwargs need
-    to be passed to the callable.
+    Inspect the signature of a callable to determine which kwargs need to be passed to the callable.
 
     :param func: The callable that you want to invoke
-    :param args: The positional arguments that needs to be passed to the callable, so we
-        know how many to skip.
+    :param args: The positional arguments that need to be passed to the callable, so we know how many to skip.
     :param kwargs: The keyword arguments that need to be filtered before passing to the callable.
     :return: A dictionary which contains the keyword arguments that are compatible with the callable.
     """
@@ -198,6 +199,8 @@ def determine_kwargs(
 
 def make_kwargs_callable(func: Callable[..., R]) -> Callable[..., R]:
     """
+    Create a new callable that only forwards necessary arguments from any provided input.
+
     Make a new callable that can accept any number of positional or keyword arguments
     but only forwards those required by the given callable func.
     """
