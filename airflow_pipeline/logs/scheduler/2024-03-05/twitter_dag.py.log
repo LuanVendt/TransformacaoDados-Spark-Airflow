@@ -1,0 +1,7 @@
+[2024-03-05 09:49:42,808] {processor.py:153} INFO - Started process (PID=517) to work on /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py
+[2024-03-05 09:49:42,809] {processor.py:641} INFO - Processing file /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py for tasks to queue
+[2024-03-05 09:49:42,810] {logging_mixin.py:115} INFO - [2024-03-05 09:49:42,810] {dagbag.py:507} INFO - Filling up the DagBag from /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py
+[2024-03-05 09:49:42,823] {processor.py:651} INFO - DAG(s) dict_keys(['TwitterDAG']) retrieved from /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py
+[2024-03-05 09:49:42,859] {logging_mixin.py:115} INFO - [2024-03-05 09:49:42,859] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-03-05 09:49:42,873] {logging_mixin.py:115} INFO - [2024-03-05 09:49:42,873] {dag.py:2927} INFO - Setting next_dagrun for TwitterDAG to 2024-03-04T00:00:00+00:00, run_after=2024-03-05T00:00:00+00:00
+[2024-03-05 09:49:42,889] {processor.py:161} INFO - Processing /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py took 0.082 seconds
