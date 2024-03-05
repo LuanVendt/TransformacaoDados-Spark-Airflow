@@ -1,9 +1,14 @@
-import sys
-sys.path.append('airflow_pipeline')
+import sys 
+from os.path import abspath, dirname, join
 
 from airflow.models import DAG
 from datetime import datetime, timedelta
 from os.path import join
+
+current_dir = dirname(abspath(__file__))
+parent_dir = dirname(current_dir)
+sys.path.append(parent_dir)
+
 from operators.twitter_operator import TwitterOperator
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 from airflow.utils.dates import days_ago
