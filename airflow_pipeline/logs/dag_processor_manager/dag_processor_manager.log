@@ -9223,3 +9223,311 @@ File Path                                                                       
 /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T17:06:24
 ================================================================================
 [2024-03-05T14:07:14.867-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-05T15:01:45.555-0300] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2024-03-05T15:01:45.557-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-05T15:01:45.558-0300] {manager.py:471} INFO - Checking for new files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags every 300 seconds
+[2024-03-05T15:01:45.558-0300] {manager.py:738} INFO - Searching for files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:01:45.560-0300] {manager.py:741} INFO - There are 1 files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:01:46.810-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.82s           2024-03-05T18:01:46
+================================================================================
+[2024-03-05T15:02:18.084-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  1.11s           2024-03-05T18:02:18
+================================================================================
+[2024-03-05T15:02:48.685-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.40s           2024-03-05T18:02:48
+================================================================================
+[2024-03-05T15:03:45.644-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.31s           2024-03-05T18:03:45
+================================================================================
+[2024-03-05T15:04:16.421-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.61s           2024-03-05T18:04:16
+================================================================================
+[2024-03-05T15:04:47.080-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.31s           2024-03-05T18:04:47
+================================================================================
+[2024-03-05T15:05:17.570-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.20s           2024-03-05T18:05:17
+================================================================================
+[2024-03-05T15:05:47.862-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.20s           2024-03-05T18:05:47
+================================================================================
+[2024-03-05T15:06:18.323-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.20s           2024-03-05T18:05:50
+================================================================================
+[2024-03-05T15:06:54.203-0300] {manager.py:738} INFO - Searching for files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:06:54.205-0300] {manager.py:741} INFO - There are 1 files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:06:54.323-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:06:54
+================================================================================
+[2024-03-05T15:07:24.935-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:07:24
+================================================================================
+[2024-03-05T15:07:55.140-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:07:55
+================================================================================
+[2024-03-05T15:08:25.343-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:08:25
+================================================================================
+[2024-03-05T15:08:55.555-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:08:47
+================================================================================
+[2024-03-05T15:09:25.656-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.20s           2024-03-05T18:09:18
+================================================================================
+[2024-03-05T15:09:55.762-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:09:49
+================================================================================
+[2024-03-05T15:10:25.862-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:10:20
+================================================================================
+[2024-03-05T15:11:21.980-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.11s           2024-03-05T18:11:21
+================================================================================
+[2024-03-05T15:11:52.167-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:11:52
+================================================================================
+[2024-03-05T15:11:54.980-0300] {manager.py:738} INFO - Searching for files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:11:54.981-0300] {manager.py:741} INFO - There are 1 files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:12:22.407-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:12:22
+================================================================================
+[2024-03-05T15:12:52.708-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:12:52
+================================================================================
+[2024-03-05T15:13:22.986-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:13:22
+================================================================================
+[2024-03-05T15:13:53.418-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.20s           2024-03-05T18:13:53
+================================================================================
+[2024-03-05T15:14:23.574-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:14:23
+================================================================================
+[2024-03-05T15:14:53.833-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:14:53
+================================================================================
+[2024-03-05T15:15:24.107-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:15:24
+================================================================================
+[2024-03-05T15:15:54.553-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.21s           2024-03-05T18:15:54
+================================================================================
+[2024-03-05T15:16:25.047-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.20s           2024-03-05T18:16:25
+================================================================================
+[2024-03-05T15:16:55.272-0300] {manager.py:738} INFO - Searching for files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:16:55.274-0300] {manager.py:741} INFO - There are 1 files in /home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags
+[2024-03-05T15:16:55.389-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:16:55
+================================================================================
+[2024-03-05T15:17:25.615-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:17:25
+================================================================================
+[2024-03-05T15:17:55.909-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:17:55
+================================================================================
+[2024-03-05T15:18:26.087-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:18:26
+================================================================================
+[2024-03-05T15:18:56.260-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:18:56
+================================================================================
+[2024-03-05T15:19:26.437-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:19:26
+================================================================================
+[2024-03-05T15:19:56.609-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:19:56
+================================================================================
+[2024-03-05T15:20:26.778-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:20:26
+================================================================================
+[2024-03-05T15:20:56.949-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/luan/Documents/curso-extracao-de-dados/airflow_pipeline/dags/twitter_dag.py                           1           0  0.10s           2024-03-05T18:20:56
+================================================================================
+[2024-03-05T15:21:23.623-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
