@@ -21,7 +21,7 @@ with DAG(dag_id = 'TwitterDAG', start_date=days_ago(2), schedule_interval='@dail
     start_time = (datetime.now() + timedelta(-1)).date().strftime(TIME_STAMP)
     query = 'data science'
 
-    twitter_operator = TwitterOperator(file_path=join('datalake/twitter_datascience', 
+    twitter_operator = TwitterOperator(file_path=join('datalake/bronze/twitter_datascience', 
                                         'extract_date={{ ds }}',
                                         'datascience_{{ ds_nodash }}.json'), 
                                         query=query, 
@@ -34,9 +34,9 @@ with DAG(dag_id = 'TwitterDAG', start_date=days_ago(2), schedule_interval='@dail
                                 application='/home/luan/Documents/curso-extracao-de-dados/src/spark/transaformation.py',
                                 name='twitter_transformation',
                                 application_args=['--src', 
-                                                  '/home/luan/Documents/curso-extracao-de-dados/datalake/twitter_datascience', 
+                                                  'datalake/bronze/twitter_datascience', 
                                                   '--dest',
-                                                  '/home/luan/Documents/curso-extracao-de-dados/dados_transformation',
+                                                  'datalake/silver/twitter_datascience',
                                                   '--process-date',
                                                   '{{ ds }}'
                                                   ])
